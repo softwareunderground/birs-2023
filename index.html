@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -9,13 +9,19 @@
 
     <title>BIRS 2023 Workshop</title>
     <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
-    <link rel="stylesheet" href="css/pico/pico.min.css" media="all" />
+    <!-- <link rel="stylesheet" href="css/pico/pico.min.css" media="all" /> -->
+    <link rel="stylesheet" href="css/pico/pico.css" media="all" />
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css" media="all" />
     <link rel="stylesheet" href="css/style.css" media="all" />
   </head>
   <body>
     <nav class="container-fluid justify-end" data-theme="dark">
       <ul>
+        <li>
+          <button id="themeSwitcher" class="themeswitch" aria="Toggle theme">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+          </button>
+        </li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
@@ -191,12 +197,13 @@
       <div class="container">
         <i class="fa-brands fa-creative-commons"></i>
         <i class="fa-brands fa-creative-commons-by"></i>
-          This website content is licensed under the
-          <a href="https://creativecommons.org/licenses/by/4.0/"
-            >Creative Commons Attribution International 4.0</a
-          >
-          license.
+        This website content is licensed under the
+        <a href="https://creativecommons.org/licenses/by/4.0/"
+          >Creative Commons Attribution International 4.0</a
+        >
+        license.
       </div>
     </footer>
   </body>
+  <script src="js/theme-switch.js"></script>
 </html>

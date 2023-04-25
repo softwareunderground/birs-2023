@@ -40,11 +40,15 @@
 /* Custom style */
 /* ------------ */
 
+body {
+    background-color: var(--background-color);
+}
+
 nav {
   background-color: var(--background-color);
 }
 
-nav i {
+nav i.fa-arrow-up-right-from-square {
   font-size: 0.5em;
   vertical-align: middle;
 }
@@ -111,7 +115,14 @@ footer {
     padding: 5em 0;
 }
 
+button.themeswitch {
+    border: 0;
+    background-color: inherit;
+}
 
+button.themeswitch:focus {
+    box-shadow: none;
+}
 
 ul.information li {
     margin-bottom: 1em;
