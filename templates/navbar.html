@@ -1,0 +1,19 @@
+<nav class="container-fluid justify-end" data-theme="dark">
+  <ul>
+    <li>
+      <button id="themeSwitcher" class="themeswitch" aria="Toggle theme">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+      </button>
+    </li>
+    {% for item in config.extra.navlinks %}
+    <li>
+      <a href="{{ item.url }}">
+        {{ item.name }}
+        {%- if item.is_external -%}
+        <i class="fa-solid fa-arrow-up-right-from-square" ></i>
+        {%- endif -%}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+
+    <title>{% block title %}{{ config.title }}{% endblock %}</title>
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+
+    <link rel="stylesheet" href="css/pico/pico.css" media="all" />
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css" media="all" />
+    <link rel="stylesheet" href="css/style.css" media="all" />
+  </head>
+  <body>
+
+    {% include "navbar.html" %}
+
+    {% block content %} {% endblock %}
+
+    {% include "footer.html" %}
+
+  </body>
+  <script src="/js/theme-switch.js"></script>
+</html>
