@@ -1,16 +1,16 @@
-name: Test build
+name: build
 
 on:
   pull_request:
 
 jobs:
   build:
-    name: Test build
+    name: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
         uses: actions/checkout@v3.0.0
-      - name: Build and deploy
-        uses: shalzz/zola-deploy-action@v0.17.2
+      - name: Build website
+        uses: shalzz/zola-deploy-action@e37232516a63e8711048bda4e1afb9e0891f46fa
         env:
           BUILD_ONLY: true
