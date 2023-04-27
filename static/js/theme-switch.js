@@ -28,6 +28,7 @@ function updateIcon(theme) {
   icon = themeButton.querySelector("i");
   icon.removeAttribute("class");
   icon.setAttribute("class", fa_icon_class);
+  icon.setAttribute("title", "Toggle theme" + " (" + theme + ")");
 }
 
 function toggleTheme(theme) {
