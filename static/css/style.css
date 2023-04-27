@@ -13,8 +13,14 @@
 .align-start {
   align-items: start;
 }
+.justify-around {
+  justify-content: space-around;
+}
 .justify-between {
   justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
 }
 .justify-evenly {
   justify-content: space-evenly;
@@ -154,6 +160,14 @@ main.home {
   max-width: none;
   height: 10em;
   margin-bottom: 1em;
+}
+
+.home .buttons-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
 }
 
 /* -------------- */
