@@ -39,6 +39,10 @@ name = "About"
 url = "/#about"
 
 [[extra.navlinks]]
+name = "Workshop"
+url = "/workshop"
+
+[[extra.navlinks]]
 name = "Contact"
 url = "/#contact"
 
