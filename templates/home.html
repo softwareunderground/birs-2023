@@ -4,23 +4,17 @@
 
 {% include "navbar.html" %}
 
-<header data-theme="dark">
+<header data-theme="dark" aria-label="Header">
   <div class="container banner">
     <h1>
       BIRS Workshop:
       <br />
       Open-Source Tools to Enable Geophysical Data Processing and Inversion
     </h1>
-    <div class="logos">
-      <a href="https://simpeg.xyz"
-        ><img src="images/simpeg.png" alt="SimPEG"
-      /></a>
-      <a href="https://www.fatiando.org"
-        ><img src="images/fatiando-logo.png" alt="Fatiando a Terra"
-      /></a>
-      <a href="https://www.birs.ca"
-        ><img src="images/birs-dark.png" alt="BIRS"
-      /></a>
+    <div class="logos" title="Logos of communities involved">
+      <a href="https://simpeg.xyz" title="SimPEG"><img src="images/simpeg.png" alt="SimPEG"/></a>
+      <a href="https://www.fatiando.org" title="Fatiando"><img src="images/fatiando-logo.png" alt="Fatiando a Terra"/></a>
+      <a href="https://www.birs.ca" title="BIRS"><img src="images/birs-dark.png" alt="BIRS"/></a>
     </div>
     <p>
       <a
@@ -119,6 +113,7 @@
     <div class="text-center">
       <!-- map -->
       <iframe
+        title="Map with pinned location of BIRS"
         width="100%"
         height="750em"
         frameborder="0"

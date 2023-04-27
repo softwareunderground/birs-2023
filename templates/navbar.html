@@ -1,5 +1,5 @@
-<nav class="container-fluid" data-theme="dark">
-  <ul>
+<nav class="container-fluid" data-theme="dark" aria-label="Navigation bar">
+  <ul aria-label="Local links">
     {% for item in config.extra.navlinks %}
       {%- if not item.is_external -%}
       <li>
@@ -8,8 +8,8 @@
       {%- endif -%}
     {% endfor %}
   </ul>
-  <ul>
-    <li>
+  <ul aria-label="External links">
+    <li aria-label="Theme switcher button">
       <button id="themeSwitcher" class="themeswitch" aria="Toggle theme">
         <i class="fa-solid fa-circle-half-stroke"></i>
       </button>
@@ -19,7 +19,7 @@
       <li>
         <a href="{{ item.url }}">
           {{ item.name }}
-          <i class="fa-solid fa-arrow-up-right-from-square" ></i>
+          <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
         </a>
       </li>
       {%- endif -%}
