@@ -39,6 +39,18 @@ name = "About"
 url = "/#about"
 
 [[extra.navlinks]]
+name = "Workshop"
+url = "/workshop"
+
+[[extra.navlinks]]
+name = "Schedule"
+url = "/schedule"
+
+[[extra.navlinks]]
+name = "Code of Conduct"
+url = "/coc"
+
+[[extra.navlinks]]
 name = "Contact"
 url = "/#contact"
 

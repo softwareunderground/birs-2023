@@ -13,8 +13,14 @@
 .align-start {
   align-items: start;
 }
+.justify-around {
+  justify-content: space-around;
+}
 .justify-between {
   justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
 }
 .justify-evenly {
   justify-content: space-evenly;
@@ -41,7 +47,7 @@
 /* ------------ */
 
 body {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 nav {
@@ -49,7 +55,7 @@ nav {
 }
 
 nav a {
-    color: var(--primary-inverse);
+  color: var(--primary-inverse);
 }
 
 nav a:hover {
@@ -59,6 +65,10 @@ nav a:hover {
 nav i.fa-arrow-up-right-from-square {
   font-size: 0.5em;
   vertical-align: middle;
+}
+
+nav ul {
+  gap: 0.15em;
 }
 
 header {
@@ -79,38 +89,57 @@ footer {
   border-top: 1px solid var(--muted-border-color);
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+h3,
+h4 {
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
 /* ----------------------- */
 /* Custom classes for home */
 /* ----------------------- */
 
 .home h2,
 .home h3,
-.home h4,
+.home h4 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
 .home p {
-    text-align: center;
-    margin-bottom: 0.6em;
+  text-align: center;
+  margin-bottom: 0.5em;
 }
 
 .home section {
-    padding: 5em 0;
-    margin-bottom: 0;
+  padding: 5em 0;
+  margin-bottom: 0;
 }
 
 main.home {
-    padding: 0;
+  padding: 0;
 }
 
 .home .information {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
-    margin-top: 5em;
-    margin-bottom: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin-top: 5em;
+  margin-bottom: 3em;
 }
 
 .home .information div {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .logos img {
@@ -130,12 +159,20 @@ main.home {
 }
 .community-card p {
   margin-bottom: 0.5em;
-  }
+}
 
 .community-card img {
   max-width: none;
   height: 10em;
   margin-bottom: 1em;
+}
+
+.home .buttons-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
 }
 
 /* -------------- */
@@ -147,18 +184,18 @@ main.home {
 }
 
 .fa-ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .theme-bg {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 button.themeswitch {
-    border: 0;
-    background-color: inherit;
+  border: 0;
+  background-color: inherit;
 }
 
 button.themeswitch:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
