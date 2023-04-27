@@ -67,6 +67,10 @@ nav i.fa-arrow-up-right-from-square {
   vertical-align: middle;
 }
 
+nav ul {
+    gap: 0.15em;
+}
+
 header {
   background-color: var(--background-color);
 }
