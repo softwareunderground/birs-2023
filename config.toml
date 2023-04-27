@@ -43,6 +43,10 @@ name = "Workshop"
 url = "/workshop"
 
 [[extra.navlinks]]
+name = "Schedule"
+url = "/schedule"
+
+[[extra.navlinks]]
 name = "Code of Conduct"
 url = "/coc"
 
