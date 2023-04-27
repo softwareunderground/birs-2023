@@ -62,11 +62,7 @@ nav i.fa-arrow-up-right-from-square {
 }
 
 header {
-  /* background-color: var(--background-color); */
-  background: linear-gradient(
-    var(--background-color),
-    var(--range-border-color)
-  );
+  background-color: var(--background-color);
 }
 header .banner {
   padding-top: 10vh;
