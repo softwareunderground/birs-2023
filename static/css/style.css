@@ -48,6 +48,14 @@ nav {
   background-color: var(--background-color);
 }
 
+nav a {
+    color: var(--primary-inverse);
+}
+
+nav a:hover {
+  color: var(--primary-hover);
+}
+
 nav i.fa-arrow-up-right-from-square {
   font-size: 0.5em;
   vertical-align: middle;
