@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% if page.title %}
+  {% block title %}
+    {{ page.title }}
+  {% endblock title %}
+{% endif %}
+
+{% block content %}
+
+{% include "navbar.html" %}
+
+<main class="container">
+  {{ page.content | safe }}
+</main>
+
+{% include "footer.html" %}
+
+{% endblock content %}
