@@ -76,6 +76,7 @@ header h1 {
 footer {
   background-color: var(--background-color);
   text-align: center;
+  border-top: 1px solid var(--muted-border-color);
 }
 
 /* ----------------------- */
