@@ -1,26 +1,31 @@
 # Website for BIRS 2023 event
 
-## How to serve locally
+## How to build and serve locally
 
-Clone this repository and move to the downloaded folder:
+This website was created using the [Zola](https://www.getzola.org) static site
+generator. In order to build the website and serve it locally, you first need
+to [install
+Zola](https://www.getzola.org/documentation/getting-started/installation/).
+
+Then, clone this repository and move to the downloaded folder:
 
 ```bash
 git clone https://www.github.com/fatiando/2023-birs
 cd 2023-birs
 ```
 
-Open a terminal and run a webserver with:
+And use Zola to build and serve the website:
 
 ```bash
-python -m http.server
+zola serve
 ```
 
-If you are tweaking the website and want to have a live preview as you edit it,
-you can use [`livereload`](https://pypi.org/project/livereload) instead:
+You can now checkout the built website through the link prompted to you. By
+default it should be [http://localhost:1111](http://localhost:1111).
 
-```bash
-livereload
-```
+If you are tweaking with the website, Zola will rebuild and update it as you
+edit it, so yo don't need to rerun `zola serve` to view the changes.
+
 
 ## License
 

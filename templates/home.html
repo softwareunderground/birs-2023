@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% include "navbar.html" %}
+
+<header data-theme="dark">
+  <div class="container banner">
+    <h1>
+      BIRS Workshop:
+      <br />
+      Open-Source Tools to Enable Geophysical Data Processing and Inversion
+    </h1>
+    <div class="logos">
+      <a href="https://simpeg.xyz"
+        ><img src="images/simpeg.png" alt="SimPEG"
+      /></a>
+      <a href="https://www.fatiando.org"
+        ><img src="images/fatiando-logo.png" alt="Fatiando a Terra"
+      /></a>
+      <a href="https://www.birs.ca"
+        ><img src="images/birs-dark.png" alt="BIRS"
+      /></a>
+    </div>
+    <p>
+      <a
+        class="secondary"
+        href="#about"
+        role="button"
+        aria-label="Learn more about the workshop"
+      >
+        Learn more
+      </a>
+    </p>
+  </div>
+</header>
+
+<main class="home">
+  <section id="about" class="container">
+    <h2>About</h2>
+    <p style="padding-left: 5em; padding-right: 5em;">
+      We are happy to announce a <strong>2 day workshop</strong> in
+      which the communities of
+      <a href="https://www.fatiando.org">Fatiando a Terra</a> and
+      <a href="https://wwww.simpeg.xyz">SimPEG</a> will join together to
+      set the roadmap for enhancing open-source tools for geophysics.
+      The workshop will take place at the
+      <a href="https://www.birs.ca"
+        >Banff International Research Station (BIRS)</a
+      >
+      from <strong>July 28 to 30, 2023</strong>, surrounded by
+      astonishing mountain landscape.
+    </p>
+
+    <div class="information">
+      <div class="flex-1">
+        <h3>
+        <i class="fa-solid fa-calendar"></i> When?
+        </h3>
+        <p>July 28 to 30, 2023</p>
+      </div>
+      <div class="flex-1">
+        <h3>
+        <i class="fa-solid fa-location-dot"></i> Where?
+        </h3>
+        <p>
+          Banff International Research Station (<a
+            href="https://www.birs.ca"
+            >BIRS</a
+          >), Alberta, Canada
+        </p>
+      </div>
+      <div class="flex-1">
+        <h3>
+        <i class="fa-solid fa-calendar"></i> More information
+        </h3>
+        <p
+          >See
+          <a
+            href="https://www.birs.ca/events/2023/2-day-workshops/23w2014"
+            >event in Birs website</a
+          ></p
+        >
+      </div>
+    </div>
+
+    <div class="text-center">
+      <!-- map -->
+      <iframe
+        width="100%"
+        height="750em"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-115.56533575057985%2C51.171599316608784%2C-115.56179523468018%2C51.17318010475254&amp;layer=mapnik&amp;marker=51.172389717454564%2C-115.56356549263"
+        style="border: 1px solid black"
+      ></iframe
+      ><br /><small
+        ><a
+          href="https://www.openstreetmap.org/?mlat=51.17239&amp;mlon=-115.56357#map=19/51.17239/-115.56357"
+          >View Larger Map</a
+        ></small
+      >
+      <!-- endmap -->
+    </div>
+  </section>
+
+  <section id="contact" class="theme-bg" data-theme="dark">
+    <div class="container dflex flex-row align-start">
+      <div class="flex-1">
+        <h2>How to participate?</h2>
+        <p>
+          Although in-person slots are limited, we have plenty of room for
+          <strong>virtual participants</strong>. If you want to join, either
+          <strong>personally</strong> or <strong>virtually</strong>, please
+          <a href="mailto:santisoler@fastmail.com">contact us</a>!
+        </p>
+      </div>
+
+      <div class="flex-1">
+        <h2>Contact us</h2>
+        <p>
+          If you have any questions regarding the workshop, don't hesitate
+          to
+          <strong>write to</strong>
+          <a href="mailto:santisoler@fastmail.com"
+            >santisoler@fastmail.com</a
+          >.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Who makes it possible?</h2>
+    <div class="grid">
+      <div class="community-card">
+        <img src="images/fatiando-logo.png" alt="Fatiando a Terra" />
+        <h3>Fatiando a Terra</h3>
+        <p>Open-source tools for geophysics</p>
+        <a href="https://www.fatiando.org">fatiando.org</a>
+      </div>
+      <div class="community-card">
+        <img src="images/simpeg.png" alt="SimPEG" />
+        <h3>SimPEG</h3>
+        <p>Simulation and Parameter Estimation in Geophysics</p>
+        <a href="https://www.simpeg.xyz">simpeg.xyz</a>
+      </div>
+      <div class="community-card">
+        <img src="images/birs.png" alt="BIRS" />
+        <h3>BIRS</h3>
+        <p>Banff International Resarch Station</p>
+        <a href="https://www.birs.ca/">birs.ca</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% include "footer.html" %}
+
+{% endblock content %}

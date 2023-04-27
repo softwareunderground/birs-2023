@@ -1,0 +1,28 @@
+<nav class="container-fluid" data-theme="dark">
+  <ul>
+    {% for item in config.extra.navlinks %}
+      {%- if not item.is_external -%}
+      <li>
+        <a href="{{ item.url }}">{{ item.name }}</a>
+      </li>
+      {%- endif -%}
+    {% endfor %}
+  </ul>
+  <ul>
+    <li>
+      <button id="themeSwitcher" class="themeswitch" aria="Toggle theme">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+      </button>
+    </li>
+    {% for item in config.extra.navlinks %}
+      {%- if item.is_external -%}
+      <li>
+        <a href="{{ item.url }}">
+          {{ item.name }}
+          <i class="fa-solid fa-arrow-up-right-from-square" ></i>
+        </a>
+      </li>
+      {%- endif -%}
+    {% endfor %}
+  </ul>
+</nav>

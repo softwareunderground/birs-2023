@@ -48,17 +48,21 @@ nav {
   background-color: var(--background-color);
 }
 
+nav a {
+    color: var(--primary-inverse);
+}
+
+nav a:hover {
+  color: var(--primary-hover);
+}
+
 nav i.fa-arrow-up-right-from-square {
   font-size: 0.5em;
   vertical-align: middle;
 }
 
 header {
-  /* background-color: var(--background-color); */
-  background: linear-gradient(
-    var(--background-color),
-    var(--range-border-color)
-  );
+  background-color: var(--background-color);
 }
 header .banner {
   padding-top: 10vh;
@@ -74,16 +78,43 @@ footer {
   text-align: center;
 }
 
-/* -------------- */
-/* Custom classes */
-/* -------------- */
+/* ----------------------- */
+/* Custom classes for home */
+/* ----------------------- */
+
+.home h2,
+.home h3,
+.home h4,
+.home p {
+    text-align: center;
+    margin-bottom: 0.6em;
+}
+
+.home section {
+    padding: 5em 0;
+    margin-bottom: 0;
+}
+
+main.home {
+    padding: 0;
+}
+
+.home .information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.home .information div {
+    background-color: var(--primary-color);
+}
+
 .logos img {
   max-height: 4.5em;
   margin-bottom: 1.5em;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .community-card {
@@ -106,13 +137,20 @@ footer {
   margin-bottom: 1em;
 }
 
+/* -------------- */
+/* Custom classes */
+/* -------------- */
+
+.text-center {
+  text-align: center;
+}
+
 .fa-ul li {
     list-style: none;
 }
 
 .theme-bg {
     background-color: var(--background-color);
-    padding: 5em 0;
 }
 
 button.themeswitch {
@@ -122,14 +160,4 @@ button.themeswitch {
 
 button.themeswitch:focus {
     box-shadow: none;
-}
-
-ul.information li {
-    margin-bottom: 1em;
-}
-
-section h2,
-section h3,
-section h4 {
-    margin-bottom: 0.6em;
 }
