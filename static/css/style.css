@@ -147,10 +147,12 @@ main.home {
   margin-bottom: 1.5em;
 }
 
+.community-cards {
+    padding-bottom: 1em;
+}
 .community-card {
   flex: 1;
   padding: 1em;
-  margin: 0 0.5em;
   text-align: center;
 }
 
