@@ -35,39 +35,36 @@ url = "https://www.birs.ca"
 # ===============
 [[extra.navlinks]]
 name = "Home"
-url = "/"
+path = "/"
 
 [[extra.navlinks]]
 name = "About"
-url = "/#about"
+path = "/#about"
 
 [[extra.navlinks]]
 name = "Workshop"
-url = "/workshop"
+path = "/workshop"
 
 [[extra.navlinks]]
 name = "Schedule"
-url = "/schedule"
+path = "/schedule"
 
 [[extra.navlinks]]
 name = "Code of Conduct"
-url = "/coc"
+path = "/coc"
 
 [[extra.navlinks]]
 name = "Contact"
-url = "/#contact"
+path = "/#contact"
 
 [[extra.navlinks]]
 name = "SimPEG"
 url = "https://www.simpeg.xyz"
-is_external = true
 
 [[extra.navlinks]]
 name = "Fatiando a Terra"
 url = "https://www.fatiando.org"
-is_external = true
 
 [[extra.navlinks]]
 name = "BIRS"
 url = "https://www.birs.ca"
-is_external = true
