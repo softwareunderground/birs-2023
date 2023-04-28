@@ -1,5 +1,8 @@
 # The URL the site will be built for
-base_url = "https://birs-2023.softwareunderground.org"
+# base_url = "https://birs-2023.softwareunderground.org"
+
+# define a temporary base_url (until the website gets its own subdomain)
+base_url = "https://github.softwareunderground.io/birs-2023/"
 
 title = "BIRS 2023 Workshop"
 
