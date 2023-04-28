@@ -10,14 +10,14 @@
     <title>{% block title %}{{ config.title }}{% endblock %}</title>
     <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
 
-    <link rel="stylesheet" href="css/pico/pico.css" media="all" />
-    <link rel="stylesheet" href="css/fontawesome/css/all.min.css" media="all" />
-    <link rel="stylesheet" href="css/style.css" media="all" />
+    <link rel="stylesheet" href="{{ get_url(path="css/pico/pico.css") }}" media="all" />
+    <link rel="stylesheet" href="{{ get_url(path="css/fontawesome/css/all.min.css") }}" media="all" />
+    <link rel="stylesheet" href="{{ get_url(path="css/style.css") }}" media="all" />
   </head>
   <body>
 
     {% block content %} {% endblock %}
 
   </body>
-  <script src="/js/theme-switch.js"></script>
+  <script src="{{ get_url(path="js/theme-switch.js") }}"></script>
 </html>

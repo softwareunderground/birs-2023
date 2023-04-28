@@ -1,9 +1,9 @@
 <nav class="container-fluid" data-theme="dark">
   <ul>
     {% for item in config.extra.navlinks %}
-      {%- if not item.is_external -%}
+      {%- if item.path -%}
       <li>
-        <a href="{{ item.url }}">{{ item.name }}</a>
+        <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
       </li>
       {%- endif -%}
     {% endfor %}
@@ -15,7 +15,7 @@
       </button>
     </li>
     {% for item in config.extra.navlinks %}
-      {%- if item.is_external -%}
+      {%- if item.url -%}
       <li>
         <a href="{{ item.url }}">
           {{ item.name }}
