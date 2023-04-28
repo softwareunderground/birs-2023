@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://www.fatiando.org/2023-birs"
+base_url = "https://birs-2023.softwareunderground.org"
 
 title = "BIRS 2023 Workshop"
 

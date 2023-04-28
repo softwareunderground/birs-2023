@@ -10,8 +10,8 @@ Zola](https://www.getzola.org/documentation/getting-started/installation/).
 Then, clone this repository and move to the downloaded folder:
 
 ```bash
-git clone https://www.github.com/fatiando/2023-birs
-cd 2023-birs
+git clone https://www.github.com/softwareunderground/birs-2023
+cd birs-2023
 ```
 
 And use Zola to build and serve the website:
