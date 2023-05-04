@@ -54,6 +54,18 @@ Besides that, we, the organizers, are looking for other funding options.
 If you need some sort of funding aid to totally or partially cover your travel
 costs, please [contact us][contact] so we can review our options.
 
+## Recreation
+
+Besides the formal activities of the workshop, participants are encouraged to
+enjoy their time in Banff and use the Banff Centre facilites. They include an
+athletic complex with swimming pool, running track, workout room, climbing wall
+and more. It also has nice arts and music library.
+Besides, there are a lot of trails around Banff that participants could visit
+and hike.
+
+Checkout [BIRS Recreation page][birs-recreation], and [Banff Park
+website][banff-park] for trail maps and more information.
+
 
 [birs-info-participants]: https://www.birs.ca/participants/
 [birs-faq]: https://www.birs.ca/frequently-asked-questions
@@ -63,4 +75,6 @@ costs, please [contact us][contact] so we can review our options.
 [birs-getting-there]: https://www.birs.ca/participants/getting-to-birs/
 [calgary]: https://www.openstreetmap.org/search?query=calgary#map=11/51.0279/-114.0879
 [birs-travel-grants]: https://www.birs.ca/participants/travel-support/
+[birs-recreation]: https://www.birs.ca/facilities/recreation
+[banff-park]: https://parks.canada.ca/pn-np/ab/banff/index
 [contact]: mailto:santisoler@fastmail.com
