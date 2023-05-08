@@ -103,11 +103,11 @@ h4 {
   margin-bottom: 0.5em;
 }
 
-a.anchor {
+a.zola-anchor {
   color: var(--primary-color);
 }
 
-a.anchor:hover {
+a.zola-anchor:hover {
   color: var(--primary-hover);
   text-decoration: none;
 }
