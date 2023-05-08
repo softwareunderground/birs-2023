@@ -54,6 +54,19 @@ Besides that, we, the organizers, are looking for other funding options.
 If you need some sort of funding aid to totally or partially cover your travel
 costs, please [contact us][contact] so we can review our options.
 
+
+## Visa letters
+
+It's important that you check if you [need a visa to travel to
+Canada][canada-visa]. You can also check out the [visa processing
+time][canada-visa-times], which could vary depending on where you are applying
+from.
+
+If you do need a visa, BIRS can send you a visa letter that you
+can attach to your application. Read more about it in their [FAQ
+Section][birs-faq].
+
+
 ## Recreation
 
 Besides the formal activities of the workshop, participants are encouraged to
@@ -78,3 +91,5 @@ website][banff-park] for trail maps and more information.
 [birs-recreation]: https://www.birs.ca/facilities/recreation
 [banff-park]: https://parks.canada.ca/pn-np/ab/banff/index
 [contact]: mailto:santisoler@fastmail.com
+[canada-visa]: https://ircc.canada.ca/english/visit/visas.asp
+[canada-visa-times]: https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html
