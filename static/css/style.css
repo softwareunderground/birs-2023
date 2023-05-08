@@ -103,6 +103,15 @@ h4 {
   margin-bottom: 0.5em;
 }
 
+a.anchor {
+  color: var(--primary-color);
+}
+
+a.anchor:hover {
+  color: var(--primary-hover);
+  text-decoration: none;
+}
+
 /* ----------------------- */
 /* Custom classes for home */
 /* ----------------------- */
