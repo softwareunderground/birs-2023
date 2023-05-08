@@ -1,5 +1,7 @@
 # Website for BIRS 2023 event
 
+**Link to the website:** https://birs-2023.softwareunderground.org
+
 ## How to build and serve locally
 
 This website was created using the [Zola](https://www.getzola.org) static site
