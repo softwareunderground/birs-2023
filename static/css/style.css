@@ -218,3 +218,27 @@ button.themeswitch {
 button.themeswitch:focus {
   box-shadow: none;
 }
+
+.toc {
+    flex: 1;
+    border-right: 2px solid var(--muted-border-color);
+}
+
+.toc a:hover {
+    color: var(--secondary-hover);
+}
+
+.toc a:focus {
+    color: var(--primary);
+    font-weight: bold;
+    background: transparent;
+}
+
+.toc-active {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.content {
+    flex: 4;
+}

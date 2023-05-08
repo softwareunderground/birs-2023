@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% if page.title %}
+  {% block title %}
+    {{ page.title }}
+  {% endblock title %}
+{% endif %}
+
+{% block content %}
+
+{% include "navbar.html" %}
+
+<main class="container">
+
+  <h1>The Workshop</h1>
+
+  <div class="dflex flex-row justify-between" style="gap: 1em;">
+
+    <aside class="toc">
+      <nav>
+        <ul>
+          {% set section = get_section(path="workshop/_index.md") %}
+          {% for p in section.pages %}
+          {% set class = "" %}
+          {% if p == page %}
+            {% set class = "toc-active" %}
+          {% endif %}
+          <li><a class="{{ class }}" href="{{ p.permalink | safe }}">{{ p.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </aside>
+
+    <div class="content">
+
+    {{ page.content | safe }}
+
+    </div>
+
+  </div>
+</main>
+
+{% include "footer.html" %}
+
+{% endblock content %}
