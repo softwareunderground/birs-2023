@@ -12,7 +12,7 @@ website when in doubt, or [contact us][contact].
 
 ## Accommodation
 
-Participants' accomodation during the nights of Friday 28 and Saturday 30 are
+Participants' accomodation during the nights of Friday 28 and Saturday 29 are
 **completely covered** by BIRS. This means that participants won't have to pay
 for their room.
 
