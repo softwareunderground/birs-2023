@@ -103,6 +103,23 @@ h4 {
   margin-bottom: 0.5em;
 }
 
+h1 a.zola-anchor,
+h2 a.zola-anchor,
+h3 a.zola-anchor,
+h4 a.zola-anchor,
+h5 a.zola-anchor{
+    display: None;
+    font-size: 0.5em;
+    vertical-align: middle;
+    margin-left: 0.5em;
+    line-height: 2;
+}
+
+h2:hover a.zola-anchor {
+    display: inline;
+    text-decoration: none;
+}
+
 /* ----------------------- */
 /* Custom classes for home */
 /* ----------------------- */
@@ -147,10 +164,12 @@ main.home {
   margin-bottom: 1.5em;
 }
 
+.community-cards {
+    padding-bottom: 1em;
+}
 .community-card {
   flex: 1;
   padding: 1em;
-  margin: 0 0.5em;
   text-align: center;
 }
 

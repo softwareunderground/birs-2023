@@ -55,7 +55,7 @@
       <p>
         <a
           class="primary"
-          href="/workshop"
+          href="{{ get_url(path="/workshop") }}"
           role="button"
           aria-label="Workshop description and goals"
         >
@@ -65,7 +65,7 @@
       <p>
         <a
           class="secondary"
-          href="/schedule"
+          href="{{ get_url(path="/schedule") }}"
           role="button"
           aria-label="Workshop's schedule"
         >
@@ -75,7 +75,17 @@
       <p>
         <a
           class="secondary"
-          href="/coc"
+          href="{{ get_url(path="/information") }}"
+          role="button"
+          aria-label="Information for Participants"
+        >
+          Info for Participants
+        </a>
+      </p>
+      <p>
+        <a
+          class="secondary"
+          href="{{ get_url(path="/coc") }}"
           role="button"
           aria-label="Code of Conduct"
         >
@@ -166,7 +176,7 @@
 
   <section class="container">
     <h2>Who makes it possible?</h2>
-    <div class="grid">
+    <div class="community-cards grid">
       <div class="community-card">
         <img src="images/fatiando-logo.png" alt="Fatiando a Terra" />
         <h3>Fatiando a Terra</h3>
@@ -186,6 +196,14 @@
         <a href="https://www.birs.ca/">birs.ca</a>
       </div>
     </div>
+    <p>
+      <img src="images/swung.png" alt="Software Underground" style="height: 8em;">
+    </p>
+    <p>
+      Special thanks to
+      <a href="https://www.softwareunderground.org">Software Underground</a>
+      for the support!
+    </p>
   </section>
 </main>
 
