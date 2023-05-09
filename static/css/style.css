@@ -220,3 +220,32 @@ button.themeswitch {
 button.themeswitch:focus {
   box-shadow: none;
 }
+
+.toc {
+    flex: 1;
+    margin-left: 2em;
+}
+
+.toc nav {
+    position: sticky;
+    top: 2em;
+}
+
+.toc li {
+    padding-left: 1em;
+    list-style: none;
+    border-left: 2px solid var(--muted-border-color);
+    transition: var(--transition);
+}
+
+.toc li:hover {
+    border-left: 2px solid var(--primary-hover);
+}
+
+.toc a {
+    color: var(--primary-color);
+}
+
+.page-content {
+    flex: 4;
+}
