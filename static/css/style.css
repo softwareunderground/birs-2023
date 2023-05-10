@@ -154,25 +154,26 @@ main.home {
 
 .home .information {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   margin-top: 5em;
   margin-bottom: 3em;
-  flex-wrap: wrap;
-  gap: 0.5em;
+  flex-wrap: nowrap;
+  gap: 2em;
 }
 
 @media (min-width: 768px) {
-    .home .information {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 5em;
-      margin-bottom: 3em;
-      gap: 2em;
-    }
+  .home .information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
 }
 
 .home .information div {
@@ -211,7 +212,7 @@ main.home {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1.5em;
+  gap: 0.5em 1.5em;
   flex-wrap: wrap;
 }
 
