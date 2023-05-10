@@ -14,15 +14,5 @@
         <i class="fa-solid fa-circle-half-stroke"></i>
       </button>
     </li>
-    {% for item in config.extra.navlinks %}
-      {%- if item.url -%}
-      <li>
-        <a href="{{ item.url }}">
-          {{ item.name }}
-          <i class="fa-solid fa-arrow-up-right-from-square" ></i>
-        </a>
-      </li>
-      {%- endif -%}
-    {% endfor %}
   </ul>
 </nav>
