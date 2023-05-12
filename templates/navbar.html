@@ -1,16 +1,23 @@
 <nav class="container-fluid" data-theme="dark">
-  <ul>
+  <ul class="burger-button">
+    <li>
+      <button id="burger" title="Toggle menu" aria="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </li>
+  </ul>
+  <ul class="navlinks" id="navlinks">
     {% for item in config.extra.navlinks %}
       {%- if item.path -%}
       <li>
-        <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
+        <a href="{{ get_url(path=item.path) }}" class="navlink">{{ item.name }}</a>
       </li>
       {%- endif -%}
     {% endfor %}
   </ul>
   <ul>
     <li>
-      <button id="themeSwitcher" title="Toggle theme (auto)" class="themeswitch" aria="Toggle theme">
+      <button id="themeSwitcher" title="Toggle theme (auto)" aria="Toggle theme">
         <i class="fa-solid fa-circle-half-stroke"></i>
       </button>
     </li>

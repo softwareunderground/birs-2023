@@ -75,6 +75,54 @@ nav ul {
   gap: 0.15em;
 }
 
+nav button {
+  border: 0;
+  background-color: inherit;
+}
+
+nav button:focus {
+  box-shadow: none;
+}
+
+nav .burger-button {
+    display: none;
+}
+
+nav li {
+    white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+
+    nav .burger-button {
+        display: flex;
+    }
+
+    .navlinks {
+        display: none;
+        position: absolute;
+        top: 4em;
+        padding-left: 1em;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 0.1em;
+        background-color: var(--background-color);
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .navlinks li {
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
+    }
+
+    .navlinks-show {
+        display: flex;
+    }
+
+}
+
 header {
   background-color: var(--background-color);
 }
@@ -230,13 +278,4 @@ main.home {
 
 .theme-bg {
   background-color: var(--background-color);
-}
-
-button.themeswitch {
-  border: 0;
-  background-color: inherit;
-}
-
-button.themeswitch:focus {
-  box-shadow: none;
 }
