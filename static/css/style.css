@@ -229,6 +229,20 @@ main.home {
   background-color: var(--primary-color);
 }
 
+.home .contact {
+  background-color: var(--background-color);
+}
+
+.home .contact > .dflex {
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .home .contact > .dflex {
+    flex-direction: row;
+  }
+}
+
 .logos img {
   max-height: 4.5em;
   margin-bottom: 1.5em;
@@ -277,6 +291,3 @@ main.home {
   list-style: none;
 }
 
-.theme-bg {
-  background-color: var(--background-color);
-}
