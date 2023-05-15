@@ -309,8 +309,8 @@ main.home {
 }
 
 .community-card img {
-  max-width: none;
-  height: 10em;
+  max-width: 100%;
+  width: 180px;
   margin-bottom: 1em;
 }
 
