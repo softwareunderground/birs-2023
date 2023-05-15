@@ -57,15 +57,3 @@ path = "/coc"
 [[extra.navlinks]]
 name = "Contact"
 path = "/#contact"
-
-[[extra.navlinks]]
-name = "SimPEG"
-url = "https://www.simpeg.xyz"
-
-[[extra.navlinks]]
-name = "Fatiando a Terra"
-url = "https://www.fatiando.org"
-
-[[extra.navlinks]]
-name = "BIRS"
-url = "https://www.birs.ca"
