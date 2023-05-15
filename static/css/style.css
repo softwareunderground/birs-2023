@@ -243,6 +243,50 @@ main.home {
   }
 }
 
+.map_canvas {
+    text-align: center;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+}
+
+.map_overlay {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    color: #fff;
+    background-color: rgba(26, 26, 26, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .35s ease-in-out;
+}
+
+.map_overlay:hover {
+    opacity: 1;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.no_scroll {
+   pointer-events: none;
+}
+
 .logos img {
   max-height: 4.5em;
   margin-bottom: 1.5em;
