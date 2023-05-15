@@ -49,6 +49,9 @@
 /* ------------ */
 /* Custom style */
 /* ------------ */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: var(--background-color);
@@ -126,14 +129,26 @@ nav li {
 
 header {
   background-color: var(--background-color);
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0!important;
 }
 header .banner {
-  padding-top: 10vh;
-  padding-bottom: 9vh;
-  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
 }
 header h1 {
   margin-bottom: 0.5em;
+}
+header .downward-link {
+    font-size: 2em;
+    padding-bottom: 0.5em;
 }
 
 footer {
