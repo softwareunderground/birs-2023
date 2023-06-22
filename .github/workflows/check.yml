@@ -13,4 +13,5 @@ jobs:
       - name: Check external links
         uses: shalzz/zola-deploy-action@e37232516a63e8711048bda4e1afb9e0891f46fa
         env:
+          BUILD_ONLY: true
           CHECK_LINKS: true
