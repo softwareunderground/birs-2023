@@ -37,7 +37,7 @@ page][birs-meals].
 The easiest way to get to BIRS is from [Calgary][calgary]. It's possible to
 drive from the Calgary International Airport to Banff, or take one of the
 shuttles that operate between the Airport and Banff Centre. You can find more
-directions on [how to get to BIRS in their website](birs-getting-there).
+directions on [how to get to BIRS in their website][birs-getting-there].
 
 {% admonition() %}
 Some shuttle companies that operate between Calgary International Airport and
