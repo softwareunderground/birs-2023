@@ -1,9 +1,7 @@
 +++
-title = "BIRS 2023: Workshop"
+title = "The Workshop"
 template = "page.html"
 +++
-
-# The Workshop
 
 ## Description
 

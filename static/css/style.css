@@ -46,6 +46,10 @@
     gap: 1em;
 }
 
+.gap-2em {
+    gap: 2em;
+}
+
 /* ------------ */
 /* Custom style */
 /* ------------ */
@@ -129,6 +133,13 @@ nav li {
 
 header {
   background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header.home {
   height: calc(100vh - 90px);
   display: flex;
   flex-direction: column;
@@ -366,4 +377,25 @@ main.home {
 
 .admonition .title {
     color: var(--primary);
+}
+
+.toc nav {
+    position: sticky;
+    top: 5em;
+    border-right: 2px solid var(--muted-border-color);
+    padding-right: 2em;
+}
+
+.toc nav a {
+  color: var(--primary-color);
+}
+
+.toc nav a:hover {
+  color: var(--primary-hover);
+}
+
+@media (max-width: 992px) {
+    .toc  {
+        display: none;
+    }
 }

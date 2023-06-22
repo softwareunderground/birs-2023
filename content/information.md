@@ -1,9 +1,8 @@
 +++
 title = "Information for Participants"
 template = "page.html"
+extra.show_toc = true
 +++
-
-# Information for Participants
 
 BIRS website has [several pages with information for
 participants][birs-info-participants], and also a [FAQ section][birs-faq].
