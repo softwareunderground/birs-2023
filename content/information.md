@@ -39,9 +39,13 @@ The easiest way to get to BIRS is from [Calgary][calgary]. There are direct
 shuttles operating between Calgary International Airport and Banff Centre,
 which offers a 15% discount to all BIRS participants.
 
+{% admonition() %}
+
 Check out the details on how to make your reservation and use that discount in
 [BIRS Travelling page][birs-getting-there].
 
+[birs-getting-there]: https://www.birs.ca/participants/getting-to-birs/
+{% end %}
 
 ## Travel grants
 
@@ -85,7 +89,6 @@ website][banff-park] for trail maps and more information.
 [birs-accommodations]: https://www.birs.ca/facilities/accommodations/
 [birs-faq-accommodation]: https://www.birs.ca/frequently-asked-questions#Accommodation
 [birs-meals]: https://www.birs.ca/frequently-asked-questions#Meals
-[birs-getting-there]: https://www.birs.ca/participants/getting-to-birs/
 [calgary]: https://www.openstreetmap.org/search?query=calgary#map=11/51.0279/-114.0879
 [birs-travel-grants]: https://www.birs.ca/participants/travel-support/
 [birs-recreation]: https://www.birs.ca/facilities/recreation
