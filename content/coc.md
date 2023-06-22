@@ -1,9 +1,7 @@
 +++
-title = "BIRS 2023: Code of Conduct"
+title = "Code of Conduct"
 template = "page.html"
 +++
-
-# Code of Conduct
 
 All participants (including in-person and virtual participants) are required to
 abide the [BIRS's Code of Conduct][birs-coc].
