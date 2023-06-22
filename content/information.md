@@ -40,10 +40,13 @@ drive from the Calgary International Airport to Banff, or take one of the
 shuttles that operate between the Airport and Banff Centre. You can find more
 directions on [how to get to BIRS in their website](birs-getting-there).
 
+{% admonition() %}
 Some shuttle companies that operate between Calgary International Airport and
 Banff Centre offer a [**15% discount to all BIRS
-participants**](birs-shuttles).
+participants**][birs-shuttles].
 
+[birs-shuttles]: https://www.birs.ca/participants/getting-to-birs/#shuttles
+{% end %}
 
 ## Travel grants
 
@@ -88,7 +91,6 @@ website][banff-park] for trail maps and more information.
 [birs-faq-accommodation]: https://www.birs.ca/frequently-asked-questions#Accommodation
 [birs-meals]: https://www.birs.ca/frequently-asked-questions#Meals
 [birs-getting-there]: https://www.birs.ca/participants/getting-to-birs/
-[birs-shuttles]: https://www.birs.ca/participants/getting-to-birs/#shuttles
 [calgary]: https://www.openstreetmap.org/search?query=calgary#map=11/51.0279/-114.0879
 [birs-travel-grants]: https://www.birs.ca/participants/travel-support/
 [birs-recreation]: https://www.birs.ca/facilities/recreation

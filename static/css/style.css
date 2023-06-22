@@ -350,3 +350,20 @@ main.home {
   list-style: none;
 }
 
+.admonition {
+    background-color: var(--code-background-color);
+    border-radius: 0.2em;
+    padding: 1em 1em;
+    box-shadow: var(--card-box-shadow);
+    color: #fff;
+    border-left: 15px solid var(--primary);
+}
+
+.admonition p {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+.admonition .title {
+    color: var(--primary);
+}
