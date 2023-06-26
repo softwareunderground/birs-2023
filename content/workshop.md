@@ -69,4 +69,4 @@ generation of developers and contributors.
 
 [birs]: https://www.birs.ca
 [fatiando]: https://www.fatiando.org
-[simpeg]: https://www.simpeg.xyz
+[simpeg]: https://simpeg.xyz
