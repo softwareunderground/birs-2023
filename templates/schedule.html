@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% if page.title %}
+  {% block title %}
+    {{ page.title }}
+  {% endblock title %}
+{% endif %}
+
+{% block content %}
+
+{% include "navbar.html" %}
+
+<header data-theme="dark">
+  <h1>{{ page.title }}</h1>
+</header>
+
+<main class="container">
+
+  {% for day, activities in page.extra.activities | group_by(attribute="day") %}
+  <h2 class="text-center">{{ day | date(format="%A %e, %B") }}</h2>
+
+  <div class="schedule dflex flex-column align-center">
+    {% set_global i = 0 %}
+    {% for activity in activities %}
+      {% if i == 0 %}
+        {% set firstrow = "first-row" %}
+      {% else %}
+        {% set firstrow = "" %}
+      {% endif %}
+      <div class="row {{ firstrow }}">
+        <div class="time">{{ activity.from }} - {{ activity.to }}</div>
+        {% if activity.description %}
+        <details class="title">
+          <summary>{{ activity.title }}</summary>
+          {{ activity.description | markdown | safe }}
+        </details>
+        {% else %}
+        <div class="title">
+          <span>{{ activity.title }}</span>
+        </div>
+        {% endif %}
+      </div>
+    {% set_global i = i + 1 %}
+    {% endfor  %}
+  </div>
+
+  {% endfor  %}
+
+</main>
+
+{% include "footer.html" %}
+
+{% endblock content %}

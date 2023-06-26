@@ -13,6 +13,9 @@
 .align-start {
   align-items: start;
 }
+.align-center {
+  align-items: center;
+}
 .justify-around {
   justify-content: space-around;
 }
@@ -399,3 +402,72 @@ main.home {
         display: none;
     }
 }
+
+.schedule {
+    margin-bottom: 3rem;
+}
+
+.schedule .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1.5em 0;
+    border-bottom: 1px solid var(--muted-border-color);
+}
+
+.schedule .first-row {
+    border-top: 1px solid var(--muted-border-color);
+}
+
+.schedule .time {
+    flex: 1;
+    text-align: center;
+    color: var(--h4-color);
+}
+
+.schedule .title {
+    flex: 3;
+}
+
+.schedule span {
+    color: var(--h4-color);
+}
+
+.schedule details {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.schedule summary {
+    display: inline;
+    color: var(--primary-hover) !important;
+}
+
+.schedule summary:focus {
+    background-color: var(--primary-focus);
+    text-decoration: underline;
+}
+
+.schedule details p {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.schedule summary::after {
+    margin-top: 5px;
+}
+
+@media (max-width: 500px) {
+    .schedule .row {
+        flex-direction: column-reverse;
+        gap: 0.6rem;
+    }
+    .schedule .time {
+        text-align: left;
+    }
+    .schedule details p {
+        margin-top: 0.4rem;
+    }
+}
+
