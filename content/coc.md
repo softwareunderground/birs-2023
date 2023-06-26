@@ -22,4 +22,4 @@ religion, or sexual identity and orientation.
 [fatiando-coc]: https://github.com/fatiando/community/blob/main/CODE_OF_CONDUCT.md
 [simpeg-coc]: https://github.com/simpeg/simpeg/blob/main/CODE_OF_CONDUCT.md
 [fatiando]: https://www.fatiando.org
-[simpeg]: https://www.simpeg.xyz
+[simpeg]: https://simpeg.xyz

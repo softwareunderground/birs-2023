@@ -28,7 +28,7 @@ url = "https://www.fatiando.org"
 
 [extra.simpeg]
 name = "SimPEG"
-url = "https://www.simpeg.xyz"
+url = "https://simpeg.xyz"
 
 [extra.birs]
 name = "BIRS"
