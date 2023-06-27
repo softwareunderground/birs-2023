@@ -25,14 +25,17 @@ skip_anchor_prefixes = [
 [extra.fatiando]
 name = "Fatiando a Terra"
 url = "https://www.fatiando.org"
+slang = "fatiando.org"
 
 [extra.simpeg]
 name = "SimPEG"
 url = "https://simpeg.xyz"
+slang = "simpeg.xyz"
 
 [extra.birs]
 name = "BIRS"
 url = "https://www.birs.ca"
+slang = "birs.ca"
 
 # Define navlinks
 # ===============
