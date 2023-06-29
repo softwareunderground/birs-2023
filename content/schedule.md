@@ -7,6 +7,7 @@ title = "Check-in"
 day = "2023-07-28"
 from = "16:00"
 to = "19:30"
+mute = true
 
 [[extra.activities]]
 title = "Welcome and introductions"
@@ -22,6 +23,7 @@ title = "Breakfast"
 day = "2023-07-29"
 from = "07:30"
 to = "08:45"
+mute = true
 
 [[extra.activities]]
 title = "Welcome talk by BIRS staff"
@@ -44,6 +46,7 @@ title = "Coffee break"
 day = "2023-07-29"
 from = "10:15"
 to = "10:30"
+mute = true
 
 [[extra.activities]]
 title = "Breakout Questions: Group Discussions"
@@ -68,12 +71,14 @@ title = "Lunch"
 day = "2023-07-29"
 from = "12:00"
 to = "13:00"
+mute = true
 
 [[extra.activities]]
 title = "Group photo"
 day = "2023-07-29"
 from = "13:00"
 to = "13:20"
+mute = true
 
 [[extra.activities]]
 title = "Breakout Questions: Group Discussions (cont)"
@@ -98,6 +103,7 @@ title = "Coffee break"
 day = "2023-07-29"
 from = "15:00"
 to = "15:30"
+mute = true
 
 [[extra.activities]]
 title = "Breakout Questions: Writing"
@@ -122,6 +128,7 @@ title = "Dinner"
 day = "2023-07-29"
 from = "17:30"
 to = "19:30"
+mute = true
 
 
 
@@ -131,6 +138,7 @@ title = "Breakfast and Checkout"
 day = "2023-07-30"
 from = "07:30"
 to = "09:00"
+mute = true
 
 [[extra.activities]]
 title = "Q & A"
@@ -155,6 +163,7 @@ title = "Coffee break"
 day = "2023-07-30"
 from = "10:15"
 to = "10:30"
+mute = true
 
 [[extra.activities]]
 title = "Making ideas real (cont)"
@@ -179,6 +188,7 @@ title = "Lunch"
 day = "2023-07-30"
 from = "12:30"
 to = "13:30"
+mute = true
 
 [[extra.activities]]
 title = "Free time"
@@ -194,4 +204,5 @@ title = "Packup and leave"
 day = "2023-07-30"
 from = "14:30"
 to = "15:00"
+mute = true
 +++

@@ -22,13 +22,21 @@
   <div class="schedule dflex flex-column align-center">
     {% set_global i = 0 %}
     {% for activity in activities %}
+
       {% if i == 0 %}
         {% set firstrow = "first-row" %}
       {% else %}
         {% set firstrow = "" %}
       {% endif %}
+
+      {% if activity.mute %}
+        {% set mute = "mute" %}
+      {% else %}
+        {% set mute = "" %}
+      {% endif %}
+
       <div class="row {{ firstrow }}">
-        <div class="time">{{ activity.from }} - {{ activity.to }}</div>
+        <div class="time {{ mute }}">{{ activity.from }} - {{ activity.to }}</div>
         {% if activity.description %}
         <details class="title">
           <summary>{{ activity.title }}</summary>
@@ -36,10 +44,11 @@
         </details>
         {% else %}
         <div class="title">
-          <span>{{ activity.title }}</span>
+          <span class="{{ mute }}">{{ activity.title }}</span>
         </div>
         {% endif %}
       </div>
+
     {% set_global i = i + 1 %}
     {% endfor  %}
   </div>

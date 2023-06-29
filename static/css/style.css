@@ -360,6 +360,10 @@ main.home {
   text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .fa-ul li {
   list-style: none;
 }
@@ -422,7 +426,7 @@ main.home {
 .schedule .time {
     flex: 1;
     text-align: center;
-    color: var(--h4-color);
+    color: var(--color);
 }
 
 .schedule .title {
@@ -431,6 +435,7 @@ main.home {
 
 .schedule span {
     color: var(--h4-color);
+    font-weight: bold;
 }
 
 .schedule details {
@@ -439,13 +444,21 @@ main.home {
     border: 0;
 }
 
-.schedule summary {
+.schedule details > summary {
     display: inline;
-    color: var(--primary-hover) !important;
+    font-weight: bold;
 }
 
-.schedule summary:focus {
-    background-color: var(--primary-focus);
+.schedule details > summary:not(:focus) {
+    color: var(--primary);
+}
+
+.schedule details[open] > summary:not(:focus) {
+    color: var(--primary);
+}
+
+.schedule details > summary:focus {
+    color: var(--primary-hover);
     text-decoration: underline;
 }
 
@@ -456,6 +469,11 @@ main.home {
 
 .schedule summary::after {
     margin-top: 5px;
+}
+
+.schedule .mute {
+    color: var(--h6-color);
+    font-weight: normal;
 }
 
 @media (max-width: 500px) {
