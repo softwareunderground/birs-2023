@@ -21,7 +21,14 @@
 
   <div class="schedule dflex flex-column align-center">
     {% set_global i = 0 %}
+    {% set_global previous_end = "" %}
     {% for activity in activities %}
+
+      {# Check consistency of start and end times #}
+      {% if i != 0 and previous_end != activity.from %}
+        {{ throw(message="Inconsistent start time for " ~ "'" ~ activity.title ~ "'" ) }}
+      {% endif %}
+      {% set_global previous_end = activity.to %}
 
       {% if i == 0 %}
         {% set firstrow = "first-row" %}
