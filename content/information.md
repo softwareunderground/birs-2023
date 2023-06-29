@@ -47,6 +47,9 @@ participants**][birs-shuttles].
 [birs-shuttles]: https://www.birs.ca/participants/getting-to-birs/#shuttles
 {% end %}
 
+There are other companies that aren't partnered with BIRS, but they might offer
+cheaper options, like [VIVO GREEN][vivogreen].
+
 ## Travel grants
 
 BIRS leads to some of its parters that can guarantee [travel grants for
@@ -97,3 +100,4 @@ website][banff-park] for trail maps and more information.
 [contact]: mailto:santisoler@fastmail.com
 [canada-visa]: https://ircc.canada.ca/english/visit/visas.asp
 [canada-visa-times]: https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html
+[vivogreen]: https://vivogreentravel.com/calgary-to-banff-shuttle/
