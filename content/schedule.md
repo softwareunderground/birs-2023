@@ -54,7 +54,6 @@ day = "2023-07-29"
 from = "10:30"
 to = "11:30"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -63,7 +62,6 @@ day = "2023-07-29"
 from = "11:30"
 to = "12:00"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -86,7 +84,6 @@ day = "2023-07-29"
 from = "13:20"
 to = "14:30"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -95,7 +92,6 @@ day = "2023-07-29"
 from = "14:30"
 to = "15:00"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -111,7 +107,6 @@ day = "2023-07-29"
 from = "15:30"
 to = "17:00"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -120,7 +115,6 @@ day = "2023-07-29"
 from = "17:00"
 to = "17:30"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -146,7 +140,6 @@ day = "2023-07-30"
 from = "09:00"
 to = "09:30"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -155,7 +148,6 @@ day = "2023-07-30"
 from = "09:30"
 to = "10:15"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -171,7 +163,6 @@ day = "2023-07-30"
 from = "10:30"
 to = "12:00"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -180,7 +171,6 @@ day = "2023-07-30"
 from = "12:00"
 to = "12:30"
 description = """
-a
 """
 
 [[extra.activities]]
@@ -196,7 +186,6 @@ day = "2023-07-30"
 from = "13:30"
 to = "14:30"
 description = """
-a
 """
 
 [[extra.activities]]
