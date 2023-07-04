@@ -12,13 +12,13 @@
       Open-Source Tools to Enable Geophysical Data Processing and Inversion
     </h1>
     <div class="logos">
-      <a href="https://simpeg.xyz"
+      <a href="{{ config.extra.simpeg.url }}"
         ><img src="images/simpeg.png" alt="SimPEG"
       /></a>
-      <a href="https://www.fatiando.org"
+      <a href="{{ config.extra.fatiando.url }}"
         ><img src="images/fatiando-logo.png" alt="Fatiando a Terra"
       /></a>
-      <a href="https://www.birs.ca"
+      <a href="{{ config.extra.birs.url }}"
         ><img src="images/birs-dark.png" alt="BIRS"
       /></a>
     </div>
@@ -35,11 +35,15 @@
     <p>
       We are happy to announce a <strong>2 day workshop</strong> in
       which the communities of
-      <a href="https://www.fatiando.org">Fatiando a Terra</a> and
-      <a href="https://simpeg.xyz">SimPEG</a> will join together to
-      set the roadmap for enhancing open-source tools for geophysics.
+      <a href="{{ config.extra.fatiando.url }}">
+        {{ config.extra.fatiando.name }}
+      </a> and
+      <a href="{{ config.extra.simpeg.url }}">
+        {{ config.extra.simpeg.name }}
+      </a> will join together to set the roadmap for enhancing open-source
+      tools for geophysics.
       The workshop will take place at the
-      <a href="https://www.birs.ca"
+      <a href="{{ config.extra.birs.url }}"
         >Banff International Research Station (BIRS)</a
       >
       from <strong>July 28 to 30, 2023</strong>, surrounded by
@@ -178,21 +182,21 @@
     <div class="community-cards grid">
       <div class="community-card">
         <img src="images/fatiando-logo.png" alt="Fatiando a Terra" />
-        <h3>Fatiando a Terra</h3>
+        <h3>{{ config.extra.fatiando.name }}</h3>
         <p>Open-source tools for geophysics</p>
-        <a href="https://www.fatiando.org">fatiando.org</a>
+        <a href="{{ config.extra.fatiando.url }}">{{ config.extra.fatiando.slang }}</a>
       </div>
       <div class="community-card">
         <img src="images/simpeg.png" alt="SimPEG" />
-        <h3>SimPEG</h3>
+        <h3>{{ config.extra.simpeg.name }}</h3>
         <p>Simulation and Parameter Estimation in Geophysics</p>
-        <a href="https://simpeg.xyz">simpeg.xyz</a>
+        <a href="{{ config.extra.simpeg.url }}">{{ config.extra.simpeg.slang }}</a>
       </div>
       <div class="community-card">
         <img src="images/birs.png" alt="BIRS" />
-        <h3>BIRS</h3>
+        <h3>{{ config.extra.birs.name }}</h3>
         <p>Banff International Resarch Station</p>
-        <a href="https://www.birs.ca/">birs.ca</a>
+        <a href="{{ config.extra.birs.url }}">{{ config.extra.birs.slang }}</a>
       </div>
     </div>
     <p>

@@ -375,6 +375,7 @@ main.home {
     box-shadow: var(--card-box-shadow);
     color: #fff;
     border-left: 15px solid var(--primary);
+    margin-bottom: var(--typography-spacing-vertical);
 }
 
 .admonition p {
