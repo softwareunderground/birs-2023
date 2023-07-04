@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% import "macros.html" as macros %}
+
 {% if page.title %}
   {% block title %}
     {{ page.title }}
@@ -43,7 +45,12 @@
       {% endif %}
 
       <div class="row {{ firstrow }}">
-        <div class="time {{ mute }}">{{ activity.from }} - {{ activity.to }}</div>
+        <div class="time {{ mute }}">
+          {% set url = macros::timeanddate(label=activity.title, day=activity.day, hhmm=activity.from) %}
+          <a href="{{ url }}">
+          {{ activity.from }} - {{ activity.to }}
+          </a>
+        </div>
         {% if activity.description %}
         <details class="title">
           <summary>{{ activity.title }}</summary>

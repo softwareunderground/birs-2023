@@ -1,0 +1,9 @@
+{% macro timeanddate(label, day, hhmm) %}
+  {% set base = "https://www.timeanddate.com/worldclock/fixedtime.html" %}
+  {% set banff_code = "&p1=1097" %}
+  {% set datetime = day ~ "T" ~ hhmm ~ ":00" %}
+  {% set datetime = datetime | date(format="%Y%m%dT%H%M") %}
+  {% set url = base ~ "?msg=" ~ label %}
+  {% set url = url ~ "&iso=" ~ datetime ~ banff_code %}
+  {{ url }}
+{% endmacro input %}
