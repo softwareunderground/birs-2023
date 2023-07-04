@@ -195,3 +195,6 @@ from = "14:30"
 to = "15:00"
 mute = true
 +++
+
+All times are in [Banff's timezone
+(MDT)](https://www.timeanddate.com/time/zone/canada/banff).

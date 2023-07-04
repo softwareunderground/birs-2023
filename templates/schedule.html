@@ -62,6 +62,10 @@
 
   {% endfor  %}
 
+  {% if page.content %}
+    {{ page.content | markdown | safe }}
+  {% endif %}
+
 </main>
 
 {% include "footer.html" %}
