@@ -44,13 +44,19 @@
         {% set mute = "" %}
       {% endif %}
 
+      {# Transform from and to as timestamps #}
+      {% set from = macros::timestamp(day=activity.day, hhmm=activity.from) %}
+      {% set to = macros::timestamp(day=activity.day, hhmm=activity.to) %}
+
+      {# Generate url for teimanddate.com #}
+      {% set timeanddate_url = macros::timeanddate(label=activity.title, from=from, to=to) %}
+
       <div class="row {{ firstrow }}">
         <div class="time {{ mute }}">
-          {% set url = macros::timeanddate(label=activity.title, day=activity.day, hhmm=activity.from) %}
-          <a href="{{ url }}">
-          {{ macros::timestamp(day=activity.day, hhmm=activity.from) | date(format="%l:%M") }}
-          -
-          {{ macros::timestamp(day=activity.day, hhmm=activity.to) | date(format="%l:%M %P") }}
+          <a href="{{ timeanddate_url }}">
+            {{ from | date(format="%l:%M %P") }}
+            -
+            {{ to | date(format="%l:%M %P") }}
           </a>
         </div>
         {% if activity.description %}
