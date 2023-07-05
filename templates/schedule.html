@@ -48,7 +48,9 @@
         <div class="time {{ mute }}">
           {% set url = macros::timeanddate(label=activity.title, day=activity.day, hhmm=activity.from) %}
           <a href="{{ url }}">
-          {{ activity.from }} - {{ activity.to }}
+          {{ macros::timestamp(day=activity.day, hhmm=activity.from) | date(format="%l:%M") }}
+          -
+          {{ macros::timestamp(day=activity.day, hhmm=activity.to) | date(format="%l:%M %P") }}
           </a>
         </div>
         {% if activity.description %}

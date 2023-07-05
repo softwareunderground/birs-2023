@@ -6,4 +6,8 @@
   {% set url = base ~ "?msg=" ~ label %}
   {% set url = url ~ "&iso=" ~ datetime ~ banff_code %}
   {{ url }}
-{% endmacro input %}
+{% endmacro timeanddate%}
+
+{% macro timestamp(day, hhmm) %}
+  {{ day ~ "T" ~ hhmm ~ ":00" }}
+{% endmacro timestamp %}
