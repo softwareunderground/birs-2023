@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% import "macros.html" as macros %}
+
+{% if page.title %}
+  {% block title %}
+    {{ page.title }}
+  {% endblock title %}
+{% endif %}
+
+{% block content %}
+
+{% include "navbar.html" %}
+
+<header data-theme="dark">
+  <h1>{{ page.title }}</h1>
+</header>
+
+<main class="container">
+
+  {% for day, activities in page.extra.activities | group_by(attribute="day") %}
+  <h2 class="text-center">{{ day | date(format="%A %e, %B") }}</h2>
+
+  <div class="schedule dflex flex-column align-center">
+    {% set_global i = 0 %}
+    {% set_global previous_end = "" %}
+    {% for activity in activities %}
+
+      {# Check consistency of start and end times #}
+      {% if i != 0 and previous_end != activity.from %}
+        {{ throw(message="Inconsistent start time for " ~ "'" ~ activity.title ~ "'" ) }}
+      {% endif %}
+      {% set_global previous_end = activity.to %}
+
+      {% if i == 0 %}
+        {% set firstrow = "first-row" %}
+      {% else %}
+        {% set firstrow = "" %}
+      {% endif %}
+
+      {% if activity.mute %}
+        {% set mute = "mute" %}
+      {% else %}
+        {% set mute = "" %}
+      {% endif %}
+
+      {# Transform from and to as timestamps #}
+      {% set from = macros::timestamp(day=activity.day, hhmm=activity.from) %}
+      {% set to = macros::timestamp(day=activity.day, hhmm=activity.to) %}
+
+      {# Generate url for teimanddate.com #}
+      {% set timeanddate_url = macros::timeanddate(label=activity.title, from=from, to=to) %}
+
+      <div class="row {{ firstrow }}">
+        <div class="time {{ mute }}">
+          <a href="{{ timeanddate_url }}">
+            {{ from | date(format="%l:%M %P") }}
+            -
+            {{ to | date(format="%l:%M %P") }}
+          </a>
+        </div>
+        {% if activity.description %}
+        <details class="title">
+          <summary>{{ activity.title }}</summary>
+          {{ activity.description | markdown | safe }}
+        </details>
+        {% else %}
+        <div class="title">
+          <span class="{{ mute }}">{{ activity.title }}</span>
+        </div>
+        {% endif %}
+      </div>
+
+    {% set_global i = i + 1 %}
+    {% endfor  %}
+  </div>
+
+  {% endfor  %}
+
+  {% if page.content %}
+    {{ page.content | markdown | safe }}
+  {% endif %}
+
+</main>
+
+{% include "footer.html" %}
+
+{% endblock content %}

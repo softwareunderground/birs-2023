@@ -1,0 +1,26 @@
+{% macro timeanddate(label, from, to) %}
+  {# Generate link to timeanddate event #}
+  {% set base = "https://www.timeanddate.com/worldclock/fixedtime.html" %}
+  {% set banff_code = "&p1=1097" %}
+  {# Get duration of the event #}
+  {% set duration = macros::duration(from=from, to=to) | int %}
+  {% set hh = duration / 3600 | int %}
+  {% set mm = (duration % 3600) / 60 | int %}
+  {# Generate url #}
+  {% set url = base ~ "?msg=" ~ label %}
+  {% set datetime = from | date(format="%Y%m%dT%H%M") %}
+  {% set url = url ~ "&iso=" ~ datetime ~ banff_code %}
+  {% set url = url ~ "&ah=" ~ hh ~ "&am=" ~ mm %}
+  {{ url }}
+{% endmacro timeanddate%}
+
+{% macro timestamp(day, hhmm) %}
+  {{ day ~ "T" ~ hhmm ~ ":00" }}
+{% endmacro timestamp %}
+
+{% macro duration(from, to) %}
+  {% set from = from | date(format="%s") | int %}
+  {% set to = to | date(format="%s") | int %}
+  {% set duration = to - from %}
+  {{ duration }}
+{% endmacro duration %}

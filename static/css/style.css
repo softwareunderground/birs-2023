@@ -13,6 +13,9 @@
 .align-start {
   align-items: start;
 }
+.align-center {
+  align-items: center;
+}
 .justify-around {
   justify-content: space-around;
 }
@@ -357,6 +360,10 @@ main.home {
   text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .fa-ul li {
   list-style: none;
 }
@@ -400,3 +407,98 @@ main.home {
         display: none;
     }
 }
+
+.schedule {
+    margin-bottom: 3rem;
+}
+
+.schedule .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1.5em 0;
+    border-bottom: 1px solid var(--muted-border-color);
+}
+
+.schedule .first-row {
+    border-top: 1px solid var(--muted-border-color);
+}
+
+.schedule .time {
+    flex: 1;
+    text-align: center;
+    color: var(--color);
+}
+
+.schedule .title {
+    flex: 3;
+}
+
+.schedule span {
+    color: var(--h4-color);
+    font-weight: bold;
+}
+
+.schedule details {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.schedule details > summary {
+    display: inline;
+    font-weight: bold;
+}
+
+.schedule details > summary:not(:focus) {
+    color: var(--primary);
+}
+
+.schedule details[open] > summary:not(:focus) {
+    color: var(--primary);
+}
+
+.schedule details > summary:focus {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
+.schedule details p {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.schedule summary::after {
+    margin-top: 5px;
+}
+
+.schedule .mute {
+    color: var(--h6-color);
+    font-weight: normal;
+}
+
+@media (max-width: 992px) {
+    .schedule .time {
+        flex: 1;
+    }
+    .schedule .title {
+        flex: 2;
+    }
+    .schedule .row {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .schedule .row {
+        flex-direction: column-reverse;
+        gap: 0.6rem;
+    }
+    .schedule .time {
+        text-align: left;
+    }
+    .schedule details p {
+        margin-top: 0.4rem;
+    }
+}
+
