@@ -1,6 +1,9 @@
 <div class="admonition">
+  {% if not title %}
+  {% set title = "None" %}
+  {% endif %}
   <span class="title">
-  <i class="fa-solid fa-circle-info"></i> Note
+    <i class="fa-solid fa-circle-info"></i> {{ title }}
   </span>
   <br>
   <span>
