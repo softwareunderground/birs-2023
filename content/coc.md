@@ -11,9 +11,9 @@ communication channels is required to abide the [SimPEG's
 Code of Conduct][simpeg-coc] and [Fatiando's Code of Conduct][fatiando-coc],
 respectively.
 
-Participants will be also encouraged to use a Slack channel inside Software
-Underground Slack group. Everyone using it must abide [Software Underground's
-Code of Conduct][swung-coc].
+Participants will be also encouraged to use a Slack channel inside [Software
+Underground][swung] Slack group. We would like to remind that everyone using it
+must abide [Software Underground's Code of Conduct][swung-coc].
 
 {% admonition(title="Important") %}
 **We encourage every participant to review these Code of Conducts carefully.**
@@ -30,4 +30,5 @@ religion, or sexual identity and orientation.
 [simpeg-coc]: https://github.com/simpeg/simpeg/blob/main/CODE_OF_CONDUCT.md
 [fatiando]: https://www.fatiando.org
 [simpeg]: https://simpeg.xyz
+[swung]: https://softwareunderground.org
 [swung-coc]: https://softwareunderground.org/code-of-conduct
