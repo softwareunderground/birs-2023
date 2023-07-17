@@ -36,9 +36,51 @@ title = "Talks"
 day = "2023-07-29"
 from = "09:00"
 to = "10:15"
+open = true
 description = """
-Set of talks by a diverse group of participants, showcasing how open-source
-geoscientific tools enabled research and exploration.
+
+<div class="talk-summary">
+<img class="speaker flex-1" src="/images/andrea-balza-morales.jpg" alt="Profile picture of Andrea Balza Morales">
+<div class="talk-title">
+    <h3>Using open-source tools to bridge the gap between geology and geophysics</h3>
+    <p>
+    <a href="https://www.andreabalza.com">Andrea Balza Morales</a>
+    <br>
+    <em>RWTH Aachen University</em>
+    </p>
+</div>
+</div>
+
+<div class="talk-summary">
+<img class="speaker flex-1" src="/images/jiajia-sun.jpg" alt="Profile picture of Jiajia Sun">
+<div class="talk-title">
+    <h3>Building 3D quasi-geology models and predicting mineral resources using joint inversion and open-source code</h3>
+    <p>
+    <a href="https://sites.google.com/view/jiajiasun">Jiajia Sun</a>
+    <br>
+    <em>Department of Earth and Atmospheric Sciences, University of Houston</em>
+    </p>
+</div>
+</div>
+
+<div class="talk-summary">
+<div class="speakers">
+    <img class="speaker" src="/images/craig-miller.jpg" alt="Profile picture of Craig Miller">
+    <img class="speaker" src="/images/dom-fournier.jpg" alt="Profile picture of Dominique Fournier">
+</div>
+<div class="talk-title">
+    <h3>Open-source Software for potential field methods: Application to near surface volcanic and geothermal imaging</h3>
+    <p>
+    <a href="https://www.gns.cri.nz/about-us/staff-search/craig-miller">Craig Miller</a><sup>1</sup>
+    and
+    <a href="https://github.com/fourndo">Dominique Fournier</a><sup>2</sup>
+    <br>
+    <sup>1</sup><em>GNS Science</em>
+    and
+    <sup>2</sup><em>Mira Geoscience</em>
+    </p>
+</div>
+</div>
 """
 
 [[extra.activities]]

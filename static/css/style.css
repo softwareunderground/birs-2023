@@ -40,6 +40,9 @@
 .flex-3 {
   flex: 3;
 }
+.flex-4 {
+  flex: 4;
+}
 
 .flex-wrap {
   flex-wrap: wrap;
@@ -51,6 +54,10 @@
 
 .gap-2em {
     gap: 2em;
+}
+
+.mt {
+    margin-top: 1em;
 }
 
 /* ------------ */
@@ -502,3 +509,50 @@ main.home {
     }
 }
 
+img.speaker {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: solid 2px var(--color);
+}
+
+.speakers {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ flex: 1;
+ gap: 0.2em;
+}
+
+.talk-summary {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+.talk-title {
+    flex: 3;
+}
+
+.talk-title h3 {
+    font-size: 1.1rem;
+}
+
+.talk-title em {
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .talk-summary {
+        flex-direction: column;
+        align-items: center;
+    }
+    img.speaker {
+        max-width: 200px;
+    }
+    .talk-title {
+        text-align: center;
+    }
+}
