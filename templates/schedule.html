@@ -60,7 +60,11 @@
           </a>
         </div>
         {% if activity.description %}
-        <details class="title">
+          {% set open = "" %}
+          {% if activity.open %}
+          {% set open = "open" %}
+          {% endif %}
+        <details {{ open }} class="title" id="{{ activity.title | lower | replace(from=" ", to="-") }}">
           <summary>{{ activity.title }}</summary>
           {{ activity.description | markdown | safe }}
         </details>
