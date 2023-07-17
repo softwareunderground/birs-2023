@@ -485,18 +485,6 @@ main.home {
 }
 
 @media (max-width: 992px) {
-    .schedule .time {
-        flex: 1;
-    }
-    .schedule .title {
-        flex: 2;
-    }
-    .schedule .row {
-        gap: 0.5rem;
-    }
-}
-
-@media (max-width: 768px) {
     .schedule .row {
         flex-direction: column-reverse;
         gap: 0.6rem;

@@ -40,7 +40,9 @@ open = true
 description = """
 
 <div class="talk-summary">
-<img class="speaker flex-1" src="/images/andrea-balza-morales.jpg" alt="Profile picture of Andrea Balza Morales">
+<div class="flex-1">
+    <img class="speaker" src="/images/andrea-balza-morales.jpg" alt="Profile picture of Andrea Balza Morales">
+</div>
 <div class="talk-title">
     <h3>Using open-source tools to bridge the gap between geology and geophysics</h3>
     <p>
@@ -52,7 +54,9 @@ description = """
 </div>
 
 <div class="talk-summary">
-<img class="speaker flex-1" src="/images/jiajia-sun.jpg" alt="Profile picture of Jiajia Sun">
+<div class="flex-1">
+    <img class="speaker" src="/images/jiajia-sun.jpg" alt="Profile picture of Jiajia Sun">
+</div>
 <div class="talk-title">
     <h3>Building 3D quasi-geology models and predicting mineral resources using joint inversion and open-source code</h3>
     <p>
@@ -65,8 +69,12 @@ description = """
 
 <div class="talk-summary">
 <div class="speakers">
-    <img class="speaker" src="/images/craig-miller.jpg" alt="Profile picture of Craig Miller">
-    <img class="speaker" src="/images/dom-fournier.jpg" alt="Profile picture of Dominique Fournier">
+    <div class="flex-1">
+        <img class="speaker" src="/images/craig-miller.jpg" alt="Profile picture of Craig Miller">
+    </div>
+    <div class="flex-1">
+        <img class="speaker" src="/images/dom-fournier.jpg" alt="Profile picture of Dominique Fournier">
+    </div>
 </div>
 <div class="talk-title">
     <h3>Open-source Software for potential field methods: Application to near surface volcanic and geothermal imaging</h3>
