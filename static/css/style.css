@@ -385,13 +385,13 @@ main.home {
     margin-bottom: var(--typography-spacing-vertical);
 }
 
-.admonition p {
-    margin-top: 0.75rem;
-    margin-bottom: 0;
+.admonition p, .admonition ol, .admonition ul {
+    margin-bottom: 1em;
 }
 
 .admonition .title {
     color: var(--primary);
+    margin-bottom: 1em;
 }
 
 .toc nav {

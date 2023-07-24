@@ -16,7 +16,17 @@ Underground][swung] Slack group. We would like to remind that everyone using it
 must abide [Software Underground's Code of Conduct][swung-coc].
 
 {% admonition(title="Important") %}
-**We encourage every participant to review these Code of Conducts carefully.**
+We encourage every participant to review these Codes of Conduct carefully.
+
+- [BIRS's Code of Conduct][birs-coc]
+- [SimPEG Code of Conduct][simpeg-coc]
+- [Fatiando a Terra Code of Conduct][fatiando-coc]
+- [Software Underground Code of Conduct][swung-coc]
+
+[birs-coc]: https://www.birs.ca/app//webroot/files/EDIB/BIRS-Code-of-Conduct.pdf
+[fatiando-coc]: https://github.com/fatiando/community/blob/main/CODE_OF_CONDUCT.md
+[simpeg-coc]: https://github.com/simpeg/simpeg/blob/main/CODE_OF_CONDUCT.md
+[swung-coc]: https://softwareunderground.org/code-of-conduct
 {% end %}
 
 We pledge to make our BIRS Workshop a **welcoming event** that **fosters
