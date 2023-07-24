@@ -2,11 +2,10 @@
   {% if not title %}
   {% set title = "None" %}
   {% endif %}
-  <span class="title">
+  <div class="title">
     <i class="fa-solid fa-circle-info"></i> {{ title }}
-  </span>
-  <br>
-  <span>
+  </div>
+  <div>
   {{body | markdown | safe}}
-  </span>
+  </div>
 </div>
