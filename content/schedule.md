@@ -39,7 +39,7 @@ description = """
     <img class="speaker" src="/images/lindsey-heagy.jpg" alt="Profile picture of Lindsey Heagy">
 </div>
 <div class="talk-title">
-    <h3>Talk title</h3>
+    <h3>Some personal reflections on a decade of SimPEG</h3>
     <p>
     <a href="https://lindseyjh.ca/">Lindsey Heagy</a>
     <br>
