@@ -40,6 +40,29 @@ open = true
 description = """
 
 <div class="talk-summary">
+<div class="speakers">
+    <div class="flex-1">
+        <img class="speaker" src="/images/craig-miller.jpg" alt="Profile picture of Craig Miller">
+    </div>
+    <div class="flex-1">
+        <img class="speaker" src="/images/dom-fournier.jpg" alt="Profile picture of Dominique Fournier">
+    </div>
+</div>
+<div class="talk-title">
+    <h3>Open-source Software for potential field methods: Application to near surface volcanic and geothermal imaging</h3>
+    <p>
+    <a href="https://www.gns.cri.nz/about-us/staff-search/craig-miller">Craig Miller</a><sup>1</sup>
+    and
+    <a href="https://github.com/fourndo">Dominique Fournier</a><sup>2</sup>
+    <br>
+    <sup>1</sup><em>GNS Science</em>
+    and
+    <sup>2</sup><em>Mira Geoscience</em>
+    </p>
+</div>
+</div>
+
+<div class="talk-summary">
 <div class="flex-1">
     <img class="speaker" src="/images/andrea-balza-morales.jpg" alt="Profile picture of Andrea Balza Morales">
 </div>
@@ -63,29 +86,6 @@ description = """
     <a href="https://sites.google.com/view/jiajiasun">Jiajia Sun</a>
     <br>
     <em>Department of Earth and Atmospheric Sciences, University of Houston</em>
-    </p>
-</div>
-</div>
-
-<div class="talk-summary">
-<div class="speakers">
-    <div class="flex-1">
-        <img class="speaker" src="/images/craig-miller.jpg" alt="Profile picture of Craig Miller">
-    </div>
-    <div class="flex-1">
-        <img class="speaker" src="/images/dom-fournier.jpg" alt="Profile picture of Dominique Fournier">
-    </div>
-</div>
-<div class="talk-title">
-    <h3>Open-source Software for potential field methods: Application to near surface volcanic and geothermal imaging</h3>
-    <p>
-    <a href="https://www.gns.cri.nz/about-us/staff-search/craig-miller">Craig Miller</a><sup>1</sup>
-    and
-    <a href="https://github.com/fourndo">Dominique Fournier</a><sup>2</sup>
-    <br>
-    <sup>1</sup><em>GNS Science</em>
-    and
-    <sup>2</sup><em>Mira Geoscience</em>
     </p>
 </div>
 </div>
