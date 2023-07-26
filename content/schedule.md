@@ -230,7 +230,7 @@ to = "09:00"
 mute = true
 
 [[extra.activities]]
-title = "Q & A"
+title = "Recap"
 day = "2023-07-30"
 from = "09:00"
 to = "09:30"
