@@ -22,7 +22,7 @@ Warm welcome to all participants by organizers.
 title = "Introductions"
 day = "2023-07-28"
 from = "20:00"
-to = "20:30"
+to = "20:45"
 description = """
 Round of introductions so participants can get to know each other.
 """
@@ -30,8 +30,8 @@ Round of introductions so participants can get to know each other.
 [[extra.activities]]
 title = "SimPEG and Fatiando Talks"
 day = "2023-07-28"
-from = "20:30"
-to = "20:30"
+from = "20:45"
+to = "21:30"
 open = true
 description = """
 <div class="talk-summary">
