@@ -10,12 +10,57 @@ to = "19:30"
 mute = true
 
 [[extra.activities]]
-title = "Welcome and introductions"
+title = "Welcome"
 day = "2023-07-28"
 from = "19:30"
-to = "22:00"
+to = "20:00"
 description = """
-Warm welcome to all participants and round of brief introductions.
+Warm welcome to all participants by organizers.
+"""
+
+[[extra.activities]]
+title = "Introductions"
+day = "2023-07-28"
+from = "20:00"
+to = "20:45"
+description = """
+Round of introductions so participants can get to know each other.
+"""
+
+[[extra.activities]]
+title = "SimPEG and Fatiando Talks"
+day = "2023-07-28"
+from = "20:45"
+to = "21:30"
+open = true
+description = """
+<div class="talk-summary">
+<div class="flex-1">
+    <img class="speaker" src="/images/lindsey-heagy.jpg" alt="Profile picture of Lindsey Heagy">
+</div>
+<div class="talk-title">
+    <h3>Some personal reflections on a decade of SimPEG</h3>
+    <p>
+    <a href="https://lindseyjh.ca/">Lindsey Heagy</a>
+    <br>
+    <em>University of British Columbia</em>
+    </p>
+</div>
+</div>
+
+<div class="talk-summary">
+<div class="flex-1">
+    <img class="speaker" src="/images/leo-uieda.jpg" alt="Profile picture of Leonardo Uieda">
+</div>
+<div class="talk-title">
+    <h3>Fatiando a Terra</h3>
+    <p>
+    <a href="https://leouieda.com">Leonardo Uieda</a>
+    <br>
+    <em>University of Liverpool</em>
+    </p>
+</div>
+</div>
 """
 
 [[extra.activities]]
@@ -104,6 +149,9 @@ day = "2023-07-29"
 from = "10:30"
 to = "11:30"
 description = """
+Participants will form groups to have discussions around topics like future
+research and developments, community building and diversity, and sustainability
+of the projects.
 """
 
 [[extra.activities]]
@@ -112,6 +160,8 @@ day = "2023-07-29"
 from = "11:30"
 to = "12:00"
 description = """
+Each group will present the main discussion details to the rest of the
+participants.
 """
 
 [[extra.activities]]
@@ -157,6 +207,8 @@ day = "2023-07-29"
 from = "15:30"
 to = "17:00"
 description = """
+After having discussions around the main topics of the Workshop, participants
+will capture their thoughts in collaboratively shared documents.
 """
 
 [[extra.activities]]
@@ -190,6 +242,8 @@ day = "2023-07-30"
 from = "09:00"
 to = "09:30"
 description = """
+Organizers will go through the main highlights from Saturday and set the scene
+for today's activities.
 """
 
 [[extra.activities]]
@@ -198,6 +252,9 @@ day = "2023-07-30"
 from = "09:30"
 to = "10:15"
 description = """
+Groups will be formed around the main discussion topics to work on future
+roadmaps, tackle the main issues raised on Saturday, and start designing
+possible solutions.
 """
 
 [[extra.activities]]
