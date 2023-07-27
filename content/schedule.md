@@ -53,7 +53,7 @@ description = """
     <img class="speaker" src="/images/leo-uieda.jpg" alt="Profile picture of Leonardo Uieda">
 </div>
 <div class="talk-title">
-    <h3>Talk title</h3>
+    <h3>Fatiando a Terra</h3>
     <p>
     <a href="https://leouieda.com">Leonardo Uieda</a>
     <br>
