@@ -104,6 +104,9 @@ day = "2023-07-29"
 from = "10:30"
 to = "11:30"
 description = """
+Participants will form groups to have discussions around topics like future
+research and developments, community building and diversity, and sustainability
+of the projects.
 """
 
 [[extra.activities]]
@@ -112,6 +115,8 @@ day = "2023-07-29"
 from = "11:30"
 to = "12:00"
 description = """
+Each group will present the main discussion details to the rest of the
+participants.
 """
 
 [[extra.activities]]
@@ -157,6 +162,8 @@ day = "2023-07-29"
 from = "15:30"
 to = "17:00"
 description = """
+After having discussions around the main topics of the Workshop, participants
+will capture their thoughts in collaboratively shared documents.
 """
 
 [[extra.activities]]
@@ -190,6 +197,8 @@ day = "2023-07-30"
 from = "09:00"
 to = "09:30"
 description = """
+Organizers will go through the main highlights from Saturday and set the scene
+for today's activities.
 """
 
 [[extra.activities]]
@@ -198,6 +207,9 @@ day = "2023-07-30"
 from = "09:30"
 to = "10:15"
 description = """
+Groups will be formed around the main discussion topics to work on future
+roadmaps, tackle the main issues raised on Saturday, and start designing
+possible solutions.
 """
 
 [[extra.activities]]
