@@ -94,7 +94,7 @@ description = """
     </div>
 </div>
 <div class="talk-title">
-    <h3>Open-source Software for potential field methods: Application to near surface volcanic and geothermal imaging</h3>
+    <h3>Complete Open-source Software Processing Workflow: From Field Data to Publication</h3>
     <p>
     <a href="https://www.gns.cri.nz/about-us/staff-search/craig-miller">Craig Miller</a><sup>1</sup>
     and
