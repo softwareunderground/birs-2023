@@ -85,6 +85,29 @@ open = true
 description = """
 
 <div class="talk-summary">
+<div class="speakers">
+    <div class="flex-1">
+        <img class="speaker" src="/images/craig-miller.jpg" alt="Profile picture of Craig Miller">
+    </div>
+    <div class="flex-1">
+        <img class="speaker" src="/images/dom-fournier.jpg" alt="Profile picture of Dominique Fournier">
+    </div>
+</div>
+<div class="talk-title">
+    <h3>Open-source Software for potential field methods: Application to near surface volcanic and geothermal imaging</h3>
+    <p>
+    <a href="https://www.gns.cri.nz/about-us/staff-search/craig-miller">Craig Miller</a><sup>1</sup>
+    and
+    <a href="https://github.com/fourndo">Dominique Fournier</a><sup>2</sup>
+    <br>
+    <sup>1</sup><em>GNS Science</em>
+    and
+    <sup>2</sup><em>Mira Geoscience</em>
+    </p>
+</div>
+</div>
+
+<div class="talk-summary">
 <div class="flex-1">
     <img class="speaker" src="/images/andrea-balza-morales.jpg" alt="Profile picture of Andrea Balza Morales">
 </div>
@@ -111,29 +134,6 @@ description = """
     </p>
 </div>
 </div>
-
-<div class="talk-summary">
-<div class="speakers">
-    <div class="flex-1">
-        <img class="speaker" src="/images/craig-miller.jpg" alt="Profile picture of Craig Miller">
-    </div>
-    <div class="flex-1">
-        <img class="speaker" src="/images/dom-fournier.jpg" alt="Profile picture of Dominique Fournier">
-    </div>
-</div>
-<div class="talk-title">
-    <h3>Open-source Software for potential field methods: Application to near surface volcanic and geothermal imaging</h3>
-    <p>
-    <a href="https://www.gns.cri.nz/about-us/staff-search/craig-miller">Craig Miller</a><sup>1</sup>
-    and
-    <a href="https://github.com/fourndo">Dominique Fournier</a><sup>2</sup>
-    <br>
-    <sup>1</sup><em>GNS Science</em>
-    and
-    <sup>2</sup><em>Mira Geoscience</em>
-    </p>
-</div>
-</div>
 """
 
 [[extra.activities]]
@@ -149,6 +149,9 @@ day = "2023-07-29"
 from = "10:30"
 to = "11:30"
 description = """
+Participants will form groups to have discussions around topics like future
+research and developments, community building and diversity, and sustainability
+of the projects.
 """
 
 [[extra.activities]]
@@ -157,6 +160,8 @@ day = "2023-07-29"
 from = "11:30"
 to = "12:00"
 description = """
+Each group will present the main discussion details to the rest of the
+participants.
 """
 
 [[extra.activities]]
@@ -202,6 +207,8 @@ day = "2023-07-29"
 from = "15:30"
 to = "17:00"
 description = """
+After having discussions around the main topics of the Workshop, participants
+will capture their thoughts in collaboratively shared documents.
 """
 
 [[extra.activities]]
@@ -235,6 +242,8 @@ day = "2023-07-30"
 from = "09:00"
 to = "09:30"
 description = """
+Organizers will go through the main highlights from Saturday and set the scene
+for today's activities.
 """
 
 [[extra.activities]]
@@ -243,6 +252,9 @@ day = "2023-07-30"
 from = "09:30"
 to = "10:15"
 description = """
+Groups will be formed around the main discussion topics to work on future
+roadmaps, tackle the main issues raised on Saturday, and start designing
+possible solutions.
 """
 
 [[extra.activities]]
