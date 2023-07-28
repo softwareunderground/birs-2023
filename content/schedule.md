@@ -53,11 +53,14 @@ description = """
     <img class="speaker" src="/images/leo-uieda.jpg" alt="Profile picture of Leonardo Uieda">
 </div>
 <div class="talk-title">
-    <h3>Fatiando a Terra</h3>
+    <h3>The Fatiando a Terra project</h3>
     <p>
     <a href="https://leouieda.com">Leonardo Uieda</a>
     <br>
-    <em>University of Liverpool</em>
+    <em>Universidade de São Paulo</em> / <em>University of Liverpool</em>
+    </p>
+    <p>
+    <a href="https://youtu.be/hC2Ukdceyck">Talk recording</a> / <a href="https://www.fatiando.org/birs2023-introduction/">Slides</a>
     </p>
 </div>
 </div>
