@@ -1,0 +1,240 @@
+
+# BIRS 2023: Team 1
+
+Team members:
+
+    - Craig
+
+    - Devin
+
+    - Andrea
+
+    - Seogi
+
+    
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Instructions:
+
+   * Etherpad is a nice collaboration tool that allows us to create shared documents where everyone can write.
+   * Content will be **highlighted** with a **specific color for each collaborator**.
+   * We encourage you to **add your name** through the top right button (the one with the people logo), so we can keep track of your inputs.
+   * Etherpad offers the option to remove the highlight after text has been added. **Please don't do it.**
+   * **Start writing** and **don't delete** other people's inputs.
+   * You can **add comments** to other people's inputs: select the text and use the comment button in the top bar.
+   * Please, **don't share the link to the pad**.
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+## Discussion Questions
+
+
+
+### How can we improve the communication within our communities?
+
+   * *How do you mainly interact with the SimPEG and Fatiando communities? (Slack channels, forums, weekly meetings, etc.) *
+   * *What aspects do you like and don't like about them? *
+   * *What could be improved? *
+   * *Are our communication channels working for the community? How they can be improved?*
+   * *Are there any alternative channels we should explore? *
+
+
+SimPEG and Fatiando use Slack as "fast" or "instant" communications especially for developers. For a slower pace work, Discourse is used for SimPEG. There is a need to capture threads of conversation among domain expertise given the messages in slack would be lost. Responsponsibility to address questions in Discourse is a challenge. In general increasing visibility of the package was a common challenge that we have identified (e.g., improve a landing page on the website). 
+
+
+
+In terms of meetings, SimPEG has a weekly meeting mainly for developers, so we identified a need to open up a longer term meeting inviting general users. For addressing general questions, we agreed upon that we need to improve our documentation such that contributors could simply point to the existing resources. For developers, we identified a need to start, developer's guide in the documentation. Fatiando has a good example documentation for this: [https://github.com/fatiando/community/blob/main/CONTRIBUTING.md](https://github.com/fatiando/community/blob/main/CONTRIBUTING.md)
+
+
+
+   * **Communication platform needs**:
+       * A single platforms so that information isn’t scattered everywhere.
+       * Need to establish a boundary between channels for developers and conversations within the general community.
+       * Need questions to be answered in a timely manner.
+       * Need previously answered questions archived, so that they aren’t asked again.
+
+
+   * **Keeping the community up to date on current projects and new functionality.**
+       * Newsletter
+       * Release notes
+
+
+   * **Periodic workshops**:
+       * Invite the community to provide feedback
+       * Determine highest priority items
+       * Use to steer future directions
+
+
+   * **Refactor the Slack channels**
+
+
+**ACTION ITEMS:**
+
+1. Improve simpeg website landing page to be friendlier
+
+2. Starting a developer's guide 
+
+   * We could use a very simple forward modeling (e.g.; a polynomial function)`
+   * Making a simulation class; this will involve
+       * Survey class;  Source class; Receiver class
+       * Order tests
+   * Style guide
+   * Adding test
+   * Pull request process
+3. Define the scope of each package.
+
+   * 
+
+       * 
+
+### What future research can be enabled by SimPEG and Fatiando?
+
+   * *What future research directions and use cases are you considering to take in which SimPEG and Fatiando could be useful?*
+   * *How SimPEG and/or Fatiando can enable them?*
+   * *What parts of these research directions do you think are possible to achieve at the moment with the existing tools?*
+   * *What parts aren't?*
+   * *What do you think it's needed to achieve them? *
+
+
+Expand  Fatiando ecosystem for geophysical data processing and keep SimPEG for inversion.
+
+However Fatiando can have a niche for 2D grid based inversion, Parker-Oldenburg, layered geometry etc using the prisms .  Voxel inversion stays as SimPEG focus.
+
+Stop doing voxel inversion in Fatiando.
+
+Expand range of data processing options in Fatiando, not just potential fields, but EM processing etc.
+
+SimPEG works in cartesian scale- "flat earth", Fatiando remains for larger scale - Tesseroids etc, curved earth.
+
+
+
+Any grid based processing remain in fatiando.
+
+Potential gravity terrain corrections using prisms in Fatiando.
+
+
+
+
+
+Other science areas where Simpeg could contribute to include reservoir simulation for geothermal.  Forward modelling outputs from numerical simulations to predict potential field responses etc and use to adjust numerical model simulation.
+
+Remote sensing data
+
+Oceanography.
+
+Fluid modelling
+
+
+
+Some  things can be easy to implement, other things, are possible within the existing code but not implemented and other things are difficult to implement or really out of scope i.e. require different physics for forward simulations.
+
+
+
+Improve SimPEG MT inversion, look at other EM options GPR for example.
+
+
+
+Improve incorporation of external knowledge e.g. geological models, PGI
+
+
+
+ACTION POINTS
+
+1) Make an issue around what the scope of each pacakage is or could be, imake an issue in each package and refer to the other.   
+
+
+
+
+
+
+
+### How can we increase the diversity of our communities?
+
+   * *How to create a more welcoming environment for people to interact with our  communities?*
+   * *Should we create connections with other organizations that push towards more diversity in science?*
+   * *Which organizations?*
+   * *How that interaction would look like? What activities could we jointly do? *
+
+
+Diversity can mean many things  (culture, technical ability, applications, etc). One way to encourage more beginners and people from different backgrounds to contribute and participate in the community would be: 
+
+   * - Have a landing page that is simple and easy to access
+   * - **Train future trainers** to keep both the sustainability and further outreach of the project. 
+   * - Have a contributors guide that is welcoming. (Fatiando has a good example) 
+   * - Adapting other organisations way of implementing mechanisms of inclusion ( for example groups who have implemented colormaps and descriptions for people with visual disabilities) 
+   * - Have a tutorial that takes spaghetti code into the open-source package (Simpeg) 
+   * - Importance of having a person that is working with the program to also explain and expand the usability of the code to their organizations. 
+   * 
+
+   * 
+
+   * ACTION POINTS: Write a diversity statement for SimPEG and Fatiando.
+   * 
+
+   * 
+
+   * 
+
+### How to make these projects more sustainable?
+
+   * *How sustainable do you perceive these projects are?*
+       * *"They will last for decades" vs "I see they could stop being maintained at any point"*
+   * *How to ensure future development, maintenance and community support of the  projects?*
+   * *How can we assess the impact of these projects in the geoscientific community?*
+   * *How can we encourage users and researchers to share works that use SimPEG  and Fatiando?*
+
+
+ACTION ITEMS
+
+
+
+Develop a plan to develop:
+
+   * **A long-term code contribution and review strategy:**
+       * Recruit, train and encourage lower level developers to review small-scale proposed code changes.
+       * Leave pull-requests with major changes to higher level developers.
+   * **Recruit and encourage current practitioners to mentor newer ones.**
+
+
+
+
+
+
+### What is needed improvements to online resources?
+
+
+
+ACTION ITEMS
+
+   * **(CRITICAL) A much better SimPEG ecosystem landing page.**
+       * Must be very approachable but link to other things
+       * Link to a page defining the scope of the package.
+       * Define the scope
+   * **(HIGH IMPACT) Augment pre-existing SimPEG tutorials by describing and implementing best-practices (Devin)**; i.e. meshing, time-stepping. This is in addition to demonstrating how to use the code base. This project would require:
+       * ACTUALLY CALLING THEM TUTORIALS. I don't like user guide.
+       * making the tutorials much less light-weight and pulling them out of the current SimPEG website.
+       * set up monthly (?) testing with SimPEG to ensure all tutorial run.
+   * **(Long-term goal) Reproduce GIFtools comprehensive workflows (Devin).** These carries out the standardized inversion workflow for real data and documents best-practices.
+       * Start with processed public geophysical data; i.e. data and topography
+       * Capture the standard processing steps to setup, run, and examine the output of the geophysical inversion.
+   * **(CRITICAL) Thorough guide for contributing to the code base**. We would need:
+       * An introductory description of how we organize our classes/functions within the package. Given in the context of showing the contributor where they should put their functionality. It must be much more approachable than looking through the API!
+       * Provide linear set of steps based on what you want to contribute. E.g.:
+           * putting things in the right place
+           * adhering to the style guide; naming variables, line length, indentation, etc...
+           * creating tests and code coverage
+           * setting up a pull request
+       * A project demonstrating how to take spaghetti code and turn into mergeable code.
+
+
+Other action items related to future research and diversity: 
+
+
+
+   * Make an issue around what the scope of each package is or could be, imake an issue in each package and refer to the other.   
+
+
+   * Write a diversity statement for SimPEG and Fatiando.
+   * 
