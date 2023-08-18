@@ -31,8 +31,9 @@ edit it, so yo don't need to rerun `zola serve` to view the changes.
 
 ## License
 
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
+The sources of the website are licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by], except for the
+files that live inside the `archive` directory.
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
