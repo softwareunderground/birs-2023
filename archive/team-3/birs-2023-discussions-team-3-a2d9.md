@@ -1,0 +1,142 @@
+
+# BIRS 2023: Team 3
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Instructions:
+
+   * Etherpad is a nice collaboration tool that allows us to create shared documents where everyone can write.
+   * Content will be **highlighted** with a **specific color for each collaborator**.
+   * We encourage you to **add your name** through the top right button (the one with the people logo), so we can keep track of your inputs.
+   * Etherpad offers the option to remove the highlight after text has been added. **Please don't do it.**
+   * **Start writing** and **don't delete** other people's inputs.
+   * You can **add comments** to other people's inputs: select the text and use the comment button in the top bar.
+   * Please, **don't share the link to the pad**.
+--------------------------------------------------------------------------------------------------------------------------
+
+Team 3. Rowan, Jorge Lopez, John Weis, Mariana 
+
+## Discussion Questions
+
+
+
+### How can we improve the communication within our communities?
+
+   * *How do you mainly interact with the SimPEG and Fatiando communities? (Slack channels, forums, weekly meetings, etc.) *
+   * *What aspects do you like and don't like about them? *
+   * *What could be improved? *
+   * *Are our communication channels working for the community? How they can be improved?*
+   * *Are there any alternative channels we should explore? *
+
+
+Capture your thoughts here
+
+
+
+**Challenge**: Questions are hard to form and sometimes difficult to post or interrupt a large meeting. It would be nice to replicate the in person question/answer where you can share your screen, and have specific help.
+
+   * **Action**: Hold a dedicated office hour with a recurring cadence where anyone can bring a problem and have live help.
+
+
+**Challenge**: Many basic questions are unanswered on Slack. Answering takes time (Simpeg)
+
+   * **Action**: Provide clear guidelines of the type of questions we are able to reply and direct people to proper channels 
+   * **Action**: On boarding bot that is capable to ask all the repetitive questions (operative system, knowledge of conda, environments), that for beginners are not evident and with that info, guide the user to the proper documentation or steps to follow up.
+
+
+**Question**: The SimPEG slack is not that active, and can be difficult to answer intro questions (e.g. installation or python ecosystem questions, git challenges, etc.). Would it be worth merging with the SWUNG slack in the same way that Fatiando has done? This may also make it easier to integrate and maintain a more diverse community.
+
+
+
+We like Youtube Videos ❤️📺, we want to continue and extended them. 
+
+   * **Challenge: **Youtube captures / "freeze" code in a specific moment, 
+   * **Action**. 
+   * Provide details on the video description to warning users for possible changes in the code . 
+   * Take advantages of the intrinsic features like automatic timestamps.
+   * Include simulations
+**Challenge**: How to give formalized credit for these video tutorials + notebooks.
+
+**Possible Action**: Ask SWUNG to provide a platform for publishing and getting credit for these?
+
+   *  
+**Challenge.** Improve outreach requires extra effort and specific skills
+
+   * **Action**. Partnership with communication teams/marketing? visual designers? provide them recognizion for their work in a way is useful for their CV/professional path (social service requirement)
+
+
+
+
+### What future research can be enabled by SimPEG and Fatiando?
+
+   * *What future research directions and use cases are you considering to take in which SimPEG and Fatiando could be useful?*
+   * *How SimPEG and/or Fatiando can enable them?*
+   * *What parts of these research directions do you think are possible to achieve at the moment with the existing tools?*
+   * *What parts aren't?*
+   * *What do you think it's needed to achieve them? *
+
+
+Capture your thoughts here
+
+
+
+**Action**: SimPEG/Fatiando joint tutorial.
+
+
+
+**Challenge**: Machine learning is hard to integrate. SimPEG and Fatiando primarily use numpy, don't have some of the tools available with machine learning libraries.
+
+**Action**: Think about areas where some machine learning can be more easily integrated- autodiff mapping
+
+
+
+### How can we increase the diversity of our communities?
+
+   * *How to create a more welcoming environment for people to interact with our  communities?*
+   * *Should we create connections with other organizations that push towards more diversity in science?*
+   * *Which organizations?*
+   * *How that interaction would look like? What activities could we jointly do? *
+
+
+Capture your thoughts here
+
+
+
+**Challenge**: current state of diversity of users/contributors is not clear
+
+**Action**: prepare some questions/survey to assess diversity in different areas
+
+
+
+**Action**. Write a "Diversity Statement" to establish the scope of the type of diversity we are interested in invest and commit. Aknowledge that different types of diversity imply different requirements ?????? 
+
+
+
+**Challenge**. Increase diversity requires more work. Is a long term commitment
+
+**Action**. Create a "Diversity" subteam / committee focused/leadership on this effort???????
+
+
+
+**Action**. General Video Tutorial "From Zero to Fatiando/Simpeg  // Get started" that includes a list of tools/knowledge (checklist) for new users so they can self-asses what they need to learn in order to actively contribute ?????????
+
+
+
+### How to make these projects more sustainable?
+
+   * *How sustainable do you perceive these projects are?*
+       * *"They will last for decades" vs "I see they could stop being maintained at any point"*
+   * *How to ensure future development, maintenance and community support of the  projects?*
+   * *How can we assess the impact of these projects in the geoscientific community?*
+   * *How can we encourage users and researchers to share works that use SimPEG  and Fatiando?*
+
+
+**Challenge**: Both SimPEG and Fatiando are primarily maintained by a few people. This can be dangerous for the long term sustainability. 
+
+**Action**: Create a general framework for new contributors to learn about the gory details of the code and to learn about what steps they need to take to contribute.
+
+
+
+

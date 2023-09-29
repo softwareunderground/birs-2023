@@ -1,0 +1,238 @@
+
+# Actions items: Summary
+
+
+
+## Documentation
+
+**Make a joint tutorial with Fatiando and SimPEG**
+
+   * Cover workflow from data processing up to inversion
+   * From Raw data?
+   * Harmonica handle data processing, and generate input for inverison using SimPEG
+   * Select data
+   * Any recomondation?
+
+
+**Tutorials and User Guides**
+
+   * Include best practices in the tutorials/user guides: meshing, time stepping, etc
+   * These need to be way more visible upon entering the ecosystem for the first time
+   * Differentiate between tutorials vs user guide:
+       * A tutorial teaches the audience a new idea or concept by showing how to accomplish a goal.
+       * A guide is usually focused on achieving a particular task and can assume some level of prerequisite knowledge
+
+
+**Welcoming pages (landing pages)**
+
+   * Add analytics to SimPEG website and docs
+   * Add scope of the packages to the landing page
+   * Include links to meeting notes, calendar, tutorials, etc 
+
+
+**Guides for new developers**
+
+   * Point to third-party resources (e.g. PyOpenSci)
+   * "Tutorial for developers": define simple simulation class and write an example around it
+   * Describe how the code is organized
+   * Steps towards getting a contribution merged (doc style, code style, pr, testing, etc)
+   * How to turn spaghetti code into mergeable code?
+
+
+**Define scope of packages (Lu and Matt)**
+
+   * Current advertised Fatiando scope: 
+       * "data processing, modeling, and inversion across the Geosciences."
+   * Current advertised SimPEG scope:
+       * "simulation and gradient based parameter estimation in geophysical applications."
+       * parameter-based inversion
+   * What bits are unclear about the scope of each package is?
+       * no inversions in Fatiando yet
+       * no initial processing in Harmonica
+       * simPEG has only physical-parameter inversions
+       * "Geoscience" can be exclusive for other spatial subjects, like Biology? Who else would use Verde except for geoscientist?
+       * For Harmonica: 
+           * "Things Not Covered: Generic processing methods like grid transformations (use Verde or Xarray instead) or multidimensional FFT calculations (use xrft instead)."
+               * this needs to be removed
+       * For Choclo: 
+           * What is a Kernel function? Can this be better described?
+           * change "geophysical models"  to "potential fields"
+       * For Boule:
+           * maybe we can list out which ellipsoids are covered or aim to be covered?
+               * quasi-ellipsoid for negative geoid elevations?
+       * For Verde:
+           * what is the overlap with (Py)GMT?
+           * do some of Harmonica's grid transformations belong in Verde?
+           * maybe move or add wrapper of harmonica guassian filter to Verde?
+   * How can it be more clear?
+
+
+Add roadmap for Fatiando:
+
+   * Inversion
+       * general components
+       * specific inversion usecases
+   * Initial processing of field data
+       * from Harmonica "Cover the entire data life-cycle: from raw data to 3D Earth model."
+       * Mag
+           * basestation correction
+       * Gravity 
+           * drift corrections
+           * tide corrections
+           * Eotvos correction
+           * flight maneouver compensation
+           * temporal filtering
+           * atmospheric cap correction
+           * levelling
+           * QC 
+   * OTHER FUNCTIONS
+       * Depth-to-Source techniques for magnetics
+           * Euler or Werner
+       * Edge detection
+           * tilt-angle
+           * analytic signal (total gradient)
+       * Radially-average power spectrum
+       * Tree-mesh prism layer
+       * 
+
+
+
+
+
+**Diversity statement**
+
+
+
+**FAQs section in documentation pages**
+
+   * Capture the frequently asked questions and create a FAQ page on projects websites
+
+
+**Add Tutorials page listing all videos/notebooks with tutorials**
+
+
+
+✅ **Show source code in documentation pages for functions and classes**
+
+   * This can be done through configurations of Sphinx
+   * Checkout some of the Fatiando docs to get inspired
+^SimPEG documentations already do this (it actually links directly to the source code on GitHub, which might be something to consider for fatiando)
+
+
+
+**Page with published work**
+
+   * Gather papers that have used the projects and list them in one of their pages
+
+
+**Theoretical background references**
+
+   * Expand geosci.xyz or work on the Geophysics Library that Leo started
+   * Include all the theoretical background math and concepts needed to use the packages. Keep the same notation and define a glossary.
+   * Connect functions and tutorials with these theoretical background pages.
+       * E.g: a forward function for gravity should connect with the pages for gravitational forces
+
+
+**Link to SImPEG/Fatiando from Fatiando/SimPEG for specific features/functionalities**
+
+   * When defining the scope of the packages, might be nice to link to other projects that tackle related problems
+
+
+## Meetings
+
+**Newcomers-friendly monthly meeting**
+
+   * Record them and upload to YouTube
+   * Encourage newcomers to join
+
+
+## New developments
+
+**Extending data processing tools in Fatiando**
+
+   * Implement gravity corrections: tidal correction, drift correction, etc
+
+
+**Integration with Machine Learning**
+
+   * What open avenues are in there for it? Checkout some of the etherpads for ideas
+
+
+**Speeding up terrain corrections in Harmonica**
+
+   * Use treemeshes for prism layers or coarsen fine meshes on distant prisms to speed up the terrain correction
+       * does xarray allow changing grid spacings?
+   * Enable the usage of finer and coarsen DEMs: 
+       * need to benchmark against existing terrain correction codes. as current implementation produces quite different results - probably due to single cell size.
+
+
+## Diversity 
+
+
+
+**Reaching out to other organizations**
+
+   * Reach out to Geolatinas and figure out ways to interact more with them
+   * Make connections to PyOpenSci
+
+
+**Translation of tutorials**
+
+   * Translate some tutorials to some language a subgroup of our community speaks
+
+
+## Roadmaps
+
+**Define future roadmaps for Fatiando and SimPEG**
+
+   * Could we tackle it in future meetings?
+
+
+
+
+
+
+## Names + topic
+
+
+
+   * Tutorials or basic how to guides and explanations: Sean, Devin, Kalen, Joe, Jiajia
+   * list of published work using fatiando/simpeg: Hélène  and Craig, India, Gelson
+   * Make a joint tutorial with Fatiando and SimPEG: Lu (should we do it during transform?), Michel might steal your tutorial to test some aspect of the experimental plugin:
+   * Will try to design an experimental plugin in QGIS for a simple tutorial from the website: Michel N. 
+   * Add Tutorials page listing all videos/notebooks, related background literatures, and online learning materials: Anran, Parth, Jorge, John
+   * Define scope of packages: Matt, maybe Craig to help
+   * Welcome page: Agustina,Andrea, Jiajia, Mariana
+       * Help new users to ask questions
+           * Fatiando  [https://github.com/fatiando/community/issues/119](https://github.com/fatiando/community/issues/119) 
+           * Simpeg [https://github.com/simpeg/community/issues/15](https://github.com/simpeg/community/issues/15)
+       * Discussion on Landing page on how to access everything 
+
+
+
+
+   * Seogi Kang: use a 1D polynomial function as a forward generate: 
+           * a simulation class
+               * dpred
+               * Jvec
+               * Jtvec
+           * a source class
+           * a receiver class
+           * Later: covert this into a tutorial for new developers. 
+   * Improve Contributing Guides: Santi and Andrea
+       * Add instructions for building the docs in SimPEG's Contributing Guides
+       * Add a `make serve` target for serving SimPEG docs locally
+       * Add instructions for serving the docs locally both in SImPEG and Fatiando Contributing Guides
+
+
+
+
+
+
+
+
+
+
+
+
+

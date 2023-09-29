@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>birs-2023-discussion-zoom-a2d4</title>
+<meta name="generator" content="Etherpad">
+<meta name="author" content="Etherpad">
+<meta name="changedby" content="Etherpad">
+<meta charset="utf-8">
+<style>
+ol {
+  counter-reset: item;
+}
+
+ol > li {
+  counter-increment: item;
+}
+
+ol ol > li {
+  display: block;
+}
+
+ol > li {
+  display: block;
+}
+
+ol > li:before {
+  content: counters(item, ".") ". ";
+}
+
+ol ol > li:before {
+  content: counters(item, ".") ". ";
+  margin-left: -20px;
+}
+
+ul.indent {
+  list-style-type: none;
+}
+
+h1{font-size: 2.5em;}
+h2{font-size: 1.8em;}
+h3{font-size: 1.5em;}
+h4{font-size: 1.2em;}
+code{font-family: RobotoMono;}
+[data-color="black"], .color\:black  { color:black; }
+[data-color="red"], .color\:red    { color:red; }
+[data-color="green"], .color\:green  { color:green; }
+[data-color="blue"], .color\:blue   { color:blue; }
+[data-color="yellow"], .color\:yellow { color:yellow; }
+[data-color="orange"], .color\:orange { color:orange; }
+</style>
+</head>
+<body>
+<h1> BIRS 2023: Virtual Participants</h1><br><br>--------------------------------------------------------------------------------------------------------------------------<br>Instructions:<br><ul class="bullet"><li><span class="color:black">Etherpad is a nice collaboration tool that allows us to create shared documents where everyone can write.</span></li><li><span class="color:black">Content will be <strong>highlighted</strong> with a <strong>specific color for each collaborator</strong>.</span></li><li><span class="color:black">We encourage you to <strong>add your name</strong> through the top right button (the one with the people logo), so we can keep track of your inputs.</span></li><li><span class="color:black">Etherpad offers the option to remove the highlight after text has been added. <strong>Please don&#x27;t do it.</strong></span></li><li><strong>Start writing</strong> and <strong>don&#x27;t delete</strong> other people&#x27;s inputs.</li><li>You can <strong>add comments</strong> to other people&#x27;s inputs: select the text and use the comment button in the top bar.</li><li><span class="color:red">Please, <strong>don&#x27;t share the link to the pad</strong>.</span></ul>--------------------------------------------------------------------------------------------------------------------------<br><br><h2>Discussion Questions</h2><br><br><h3>How can we improve the communication within our communities?</h3><br><ul class="bullet"><li><em>How do you mainly interact with the SimPEG and Fatiando communities? (Slack channels, forums, weekly meetings, etc.)&nbsp;</em></li><li><em>What aspects do you like and don&#x27;t like about them?&nbsp;</em></li><li><em>What could be improved?&nbsp;</em></li><li><em>Are our communication channels working for the community? How they can be improved?</em></li><li><em>Are there any alternative channels we should explore?&nbsp;</em></ul><br>Mostly Slack channel<br>Like how responsive people are<br>Communication channels are appropriate - happy about them<br>The disadvantage of Slack is deleting messages, Element could be also used as an alternative.<br>Maybe SimPEG Slack discussions could be archived somewhere. Also write down the most asked questions and the answers on the website.<br>Fatiando has a forum on GitHub, which is effective for preserving conversations. However, one downside is that it&#x27;s not easy for others to search for messages (they won&#x27;t check it regularly and mainly visit when they have a question).<br><br>What future research can be enabled by SimPEG and Fatiando?<br><ul class="bullet"><li><em>What future research directions and use cases are you considering to take in which SimPEG and Fatiando could be useful?</em></li><li><em>How SimPEG and&#x2F;or Fatiando can enable them?</em></li><li><em>What parts of these research directions do you think are possible to achieve at the moment with the existing tools?</em></li><li><em>What parts aren&#x27;t?</em></li><li><em>What do you think it&#x27;s needed to achieve them?&nbsp;</em></ul>- We need an open source package for the preliminary processing of field data, such as levelling data, drift corrections, tide corrections.&nbsp;<br>- Better tools for terrain effect calculations. (also for field&#x2F;small-scale data)<br>- develop an inversion focused on recovering geometries as opposed to physical properties.<br><ul class="indent"><li>- used to recover Moho, sedimentary basins, topography etc.</li><li>- use aspects of SimPEG</ul>- A community resource for tutorials on best practices<br><ul class="indent"><li>-&nbsp; help reduce confusion on misused terms<ul class="indent"><li>- disturbance vs anomalies</li><li>- Bouguer vs topo-free disturbance</ul></li></ul>- Tools for teaching<br><ul class="indent"><li>- notebooks &#x2F; readthedocs websites for general geophysical tutorials</ul>&nbsp;input multiple physical data including seismic<br>Have the capacity to handle large scale dataset (computational effeicent), like wavelength compression ect...<br>For processing data, we might need to consider the data source (gravity or mag) as well as the data collection method (ground-based or airborne data). We also need think how to integrate the data together, taking into account factors such as height difference and the integration of near surface data with satellite data.<br>SimPEG is designed with a &#x27;fixed&#x27; mesh, which makes the geometry-type inversion more manageable in Fatiando for future applications. It would be beneficial to establish a workflow that allows for an easy transfer of the &#x27;model&#x2F;mesh&#x27; between these two packages. This would enable us to balance between approaches based on geometry and physical properties.<br>We are primarily doing a deterministic inversion. Since we can manage forward modeling, any stochastic inversion could also be handled within both packages.<br>Could we put a &#x27;roadmap&#x27; on the website for both packages? It could also linked with a fourm that commnities could have input.<br><br>How can we increase the diversity of our communities?<br><ul class="bullet"><li><em>How to create a more welcoming environment for people to interact with our&nbsp; communities?</em></li><li><em>Should we create connections with other organizations that push towards more diversity in science?</em></li><li><em>Which organizations?</em></li><li><em>How that interaction would look like? What activities could we jointly do?&nbsp;</em></ul><br><span class="color:blue">Keep advertising the projects (conferences etc) to reach wider audience</span><br><span class="color:blue">Organize meet ups of users at AGU or other widely attended conferences - where potentially interested people can join and learn about it</span><br>We might consider a small workshop or shot-course or demo or side-meeting at major conference, to introduce our communities with people (we can do with other open source software community together).&nbsp;<br><br><br><h3>How to make these projects more sustainable?</h3><br><ul class="bullet"><li><em>How sustainable do you perceive these projects are?</em><ul class="bullet"><li><em>&quot;They will last for decades&quot; vs &quot;I see they could stop being maintained at any point&quot;</em></li><li>What happens when the next popular coding language comes along?</ul></li></ul><ul class="indent"><li><ul class="indent"><li>- is the code setup in a way which could be migrated easily?</ul></li></ul><ul class="bullet"><li><em>How to ensure future development, maintenance and community support of the&nbsp; projects?</em><ul class="bullet"><li>How do the current developers account for the time spend developing? Is if explicitly funded or just part of their general research funds?</ul><li><em>How can we assess the impact of these projects in the geoscientific community?</em><ul class="bullet"><li>number of papers? presentations&#x2F;thesis using SimPEG&#x2F;Fatiando?</ul><li><em>How can we encourage users and researchers to share works that use SimPEG&nbsp; and Fatiando?</em><ul class="bullet"><li>Links to papers which use the packages&nbsp;<ul class="bullet"><li>showcase papers which use the packages like PyGIMLI does</li><li>below function documentation add links to uses of the functions from papers</li><li>discourse forums vs github discussions?</ul></li></ul></li></ul><br><br><h3>Action points</h3><br><ul class="bullet"><li>add a publication&#x2F;thesis showcase to the homepages of Fatiando and SimPEG similar to the one on PyGIMLI (including the code to reproduce part of the paper).</li><li>organize social meetup at AGU 2023 and try to advertise it (I know it a bit late (but not too late), but do we have a opensource geophysics session this year? And both communities want to submit a abstract in? or already did? AGU deadline 2th August)</li><li>create a new repository for field data processing &#x2F; enable community development on the Gsolve package mentioned by Craig.<ul class="bullet"><li>should cover magnetics and gravity, for ground, ship, and airborne surveying</ul><li>implement tree mesh option for Harmonica prism layer<ul class="bullet"><li>helpful for large scale terrain corrections to speed up farfield computations</li><li>use SimPEG&#x27;s discretize functions</ul><li>youtube walkthrough for raising a simple issue, forking, making simple fix, creating a PR, and merging.</li><li>for SimPEG: more tutorials in video (Youtube) form not just example code, walking through the various steps</li><li>create an online platform for geophysics, offering tutorials, clarifying terms, promoting standards, and providing teaching materials.</ul><span class="color:blue">Capture your thoughts here</span><br><div id="comments"></div>
+</body>
+</html>
