@@ -1,0 +1,546 @@
+/* ---------------------- */
+/* Custom flexbox classes */
+/* ---------------------- */
+.dflex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-start {
+  align-items: start;
+}
+.align-center {
+  align-items: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.justify-end {
+  justify-content: end;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-4 {
+  flex: 4;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-1em {
+    gap: 1em;
+}
+
+.gap-2em {
+    gap: 2em;
+}
+
+.mt {
+    margin-top: 1em;
+}
+
+/* ------------ */
+/* Custom style */
+/* ------------ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+nav {
+  background-color: var(--background-color);
+}
+
+nav a {
+  color: var(--primary-inverse);
+}
+
+nav a:hover {
+  color: var(--primary-hover);
+}
+
+nav i.fa-arrow-up-right-from-square {
+  font-size: 0.5em;
+  vertical-align: middle;
+}
+
+nav ul {
+  gap: 0.15em;
+}
+
+nav button {
+  border: 0;
+  background-color: inherit;
+}
+
+nav button:focus {
+  box-shadow: none;
+}
+
+nav .burger-button {
+    display: none;
+}
+
+nav li {
+    white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+
+    nav .burger-button {
+        display: flex;
+    }
+
+    .navlinks {
+        display: none;
+        position: absolute;
+        top: 4em;
+        left: 0;
+        padding-left: 1.5em;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 0.1em;
+        background-color: var(--background-color);
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .navlinks li {
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
+    }
+
+    .navlinks-show {
+        display: flex;
+    }
+
+}
+
+header {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header.home {
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0!important;
+}
+header .banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+header h1 {
+  margin-bottom: 0.5em;
+}
+header .downward-link {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+footer {
+  background-color: var(--background-color);
+  text-align: center;
+  border-top: 1px solid var(--muted-border-color);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+h3,
+h4 {
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+h1 a.zola-anchor,
+h2 a.zola-anchor,
+h3 a.zola-anchor,
+h4 a.zola-anchor,
+h5 a.zola-anchor{
+    display: None;
+    font-size: 0.5em;
+    vertical-align: middle;
+    margin-left: 0.5em;
+}
+
+h2:hover a.zola-anchor,
+h3:hover a.zola-anchor,
+h4:hover a.zola-anchor,
+h5:hover a.zola-anchor {
+    display: inline;
+    text-decoration: none;
+}
+
+/* ----------------------- */
+/* Custom classes for home */
+/* ----------------------- */
+
+.home h2,
+.home h3,
+.home h4 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.home p {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.home section {
+  padding: 5em 0;
+  margin-bottom: 0;
+}
+
+main.home {
+  padding: 0;
+}
+
+.home .information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  flex-wrap: nowrap;
+  gap: 2em;
+}
+
+@media (min-width: 768px) {
+  .home .information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+}
+
+.home .information div {
+  background-color: var(--primary-color);
+}
+
+.home .contact {
+  background-color: var(--background-color);
+}
+
+.home .contact > .dflex {
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .home .contact > .dflex {
+    flex-direction: row;
+  }
+}
+
+.map_canvas {
+    text-align: center;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+}
+
+.map_overlay {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    color: #fff;
+    background-color: rgba(26, 26, 26, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .35s ease-in-out;
+}
+
+.map_overlay:hover {
+    opacity: 1;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.no_scroll {
+   pointer-events: none;
+}
+
+.logos img {
+  max-height: 4.5em;
+  margin-bottom: 1.5em;
+}
+
+.community-cards {
+    padding-bottom: 1em;
+}
+.community-card {
+  flex: 1;
+  padding: 1em;
+  text-align: center;
+}
+
+.community-card h3 {
+  margin-bottom: 0;
+}
+.community-card p {
+  margin-bottom: 0.5em;
+}
+
+.community-card img {
+  max-width: 100%;
+  width: 180px;
+  margin-bottom: 1em;
+}
+
+.home .buttons-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em 1.5em;
+  flex-wrap: wrap;
+}
+
+/* -------------- */
+/* Custom classes */
+/* -------------- */
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fa-ul li {
+  list-style: none;
+}
+
+.admonition {
+    background-color: var(--code-background-color);
+    border-radius: 0.2em;
+    padding: 1em 1em;
+    box-shadow: var(--card-box-shadow);
+    color: #fff;
+    border-left: 15px solid var(--primary);
+    margin-bottom: var(--typography-spacing-vertical);
+}
+
+.admonition p, .admonition ol, .admonition ul {
+    margin-bottom: 1em;
+}
+
+.admonition .title {
+    color: var(--primary);
+    margin-bottom: 1em;
+}
+
+.toc nav {
+    position: sticky;
+    top: 5em;
+    border-right: 2px solid var(--muted-border-color);
+    padding-right: 2em;
+}
+
+.toc nav a {
+  color: var(--primary-color);
+}
+
+.toc nav a:hover {
+  color: var(--primary-hover);
+}
+
+@media (max-width: 992px) {
+    .toc  {
+        display: none;
+    }
+}
+
+.schedule {
+    margin-bottom: 3rem;
+}
+
+.schedule .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1.5em 0;
+    border-bottom: 1px solid var(--muted-border-color);
+}
+
+.schedule .first-row {
+    border-top: 1px solid var(--muted-border-color);
+}
+
+.schedule .time {
+    flex: 1;
+    text-align: center;
+    color: var(--color);
+}
+
+.schedule .title {
+    flex: 3;
+}
+
+.schedule span {
+    color: var(--h4-color);
+    font-weight: bold;
+}
+
+.schedule details {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.schedule details > summary {
+    display: inline;
+    font-weight: bold;
+}
+
+.schedule details > summary:not(:focus) {
+    color: var(--primary);
+}
+
+.schedule details[open] > summary:not(:focus) {
+    color: var(--primary);
+}
+
+.schedule details > summary:focus {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
+.schedule details p {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.schedule summary::after {
+    margin-top: 5px;
+}
+
+.schedule .mute {
+    color: var(--h6-color);
+    font-weight: normal;
+}
+
+@media (max-width: 992px) {
+    .schedule .row {
+        flex-direction: column-reverse;
+        gap: 0.6rem;
+    }
+    .schedule .time {
+        text-align: left;
+    }
+    .schedule details p {
+        margin-top: 0.4rem;
+    }
+}
+
+img.speaker {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: solid 2px var(--color);
+}
+
+.speakers {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ flex: 1;
+ gap: 0.2em;
+}
+
+.talk-summary {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+.talk-title {
+    flex: 3;
+}
+
+.talk-title h3 {
+    font-size: 1.1rem;
+}
+
+.talk-title em {
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .talk-summary {
+        flex-direction: column;
+        align-items: center;
+    }
+    img.speaker {
+        max-width: 200px;
+    }
+    .talk-title {
+        text-align: center;
+    }
+}

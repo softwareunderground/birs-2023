@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://birs-2023.softwareunderground.org/sitemap.xml
